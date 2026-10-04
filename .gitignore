@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# HUMMUS raw/preprocessed data
+*.zip
+*.csv
+
+# Python environment
+*.egg-info/
+
+# Secrets / environment variables
+.env
+.env.*
