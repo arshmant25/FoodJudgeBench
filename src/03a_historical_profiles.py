@@ -25,6 +25,16 @@ MIN_RATING_STD, MIN_LIKED, MIN_SPAN_YEARS, MIN_TEXT = 0.5, 10, 1.0, 15
 MIN_N_TENDENCY, Z_TENDENCY, Z_STRONG = 10, 3.0, 5.0
 MIN_ITEM_COUNT, Z_ITEM, MIN_LIFT, TOP_TAGS, TOP_INGS = 4, 3.0, 1.8, 6, 8
 MIN_DISLIKED = 5
+
+# Items that must never be reported as taste evidence (parsing artefacts, process/equipment/occasion tags, health tags).
+JUNK_ITEMS = {
+    "use more or less", "ice cubes", "ice", "water", "warm water", "cold water", "ice water", "hot water", "boiling water",
+    "salt", "pepper", "salt and pepper", "meat", "microwave", "mixer", "from-scratch", "romantic", "seasonal", "gifts",
+    "for-large-groups", "oamc-freezer-make-ahead", "equipment", "easy", "to-go", "inexpensive",
+    # health/diet tags: handled by nutrition tendencies, not taste
+    "diabetic", "low-saturated-fat", "very-low-carbs", "healthy", "high-calcium", "low-carb", "low-sodium", "low-fat",
+    "low-calorie", "low-cholesterol", "high-protein", "high-fiber", "low-protein", "high-in-something-diabetic-friendly",
+}
 PATTERN_MIN_N, PATTERN_MIN_SHARE, PATTERN_Z = 15, 0.95, 3.0
 
 PCT_METRICS = {  # label -> (lookup column, human meaning of 'higher')
@@ -86,7 +96,7 @@ def item_lifts(lists, base_rates, min_count, top_k):
     default = min(base_rates.values()) if base_rates else 0.001
     out = []
     for item, c in cnt.items():
-        if c < min_count:
+        if c < min_count or item in JUNK_ITEMS or len(item) < 3:
             continue
         r, b = c / n, min(max(base_rates.get(item, default), 1e-4), 0.999)
         z = (r - b) / np.sqrt(b * (1 - b) / n)
