@@ -28,3 +28,7 @@ Thumbs.db
 # Secrets / environment variables
 .env
 .env.*
+
+
+# Ignore all generated data and logs
+processed/
