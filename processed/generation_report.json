@@ -1,0 +1,64 @@
+{
+  "prompt_version": "v1",
+  "generator": {
+    "provider": "ollama",
+    "model": "llama3.1:8b"
+  },
+  "settings": {
+    "temperature": 0.4,
+    "max_tokens": 1200,
+    "max_revisions": 2,
+    "framed_n": 20
+  },
+  "cases": 120,
+  "explanations_done": 497,
+  "main_480_done": 480,
+  "target_main": 480,
+  "errors": [],
+  "stopped_on_quota": false,
+  "llm_usage": {
+    "provider": "ollama",
+    "model": "llama3.1:8b",
+    "api_calls": 844,
+    "cache_hits": 5,
+    "prompt_tokens": 551137,
+    "completion_tokens": 143242
+  },
+  "by_technique": {
+    "direct_llm": {
+      "n": 120,
+      "words_mean": 81.8,
+      "words_min": 58,
+      "words_max": 99,
+      "share_with_number_not_in_facts": 0.008
+    },
+    "grounded_check_llm": {
+      "n": 120,
+      "words_mean": 71.1,
+      "words_min": 46,
+      "words_max": 102,
+      "share_with_number_not_in_facts": 0.0
+    },
+    "grounded_llm": {
+      "n": 137,
+      "words_mean": 81.6,
+      "words_min": 61,
+      "words_max": 118,
+      "share_with_number_not_in_facts": 0.0
+    },
+    "template": {
+      "n": 120,
+      "words_mean": 57.2,
+      "words_min": 29,
+      "words_max": 83,
+      "share_with_number_not_in_facts": 0.0
+    }
+  },
+  "check_revise": {
+    "share_revised": 0.992,
+    "mean_revisions": 1.97,
+    "share_text_changed_vs_grounded": 0.992,
+    "check_failed": 0,
+    "unresolved_after_revisions": 112
+  }
+}

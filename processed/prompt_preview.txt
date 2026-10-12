@@ -1,0 +1,203 @@
+====================================================================================================
+CASE H001-r1  role=strong  profile=rich/no_signal
+====================================================================================================
+--- FACT LIST ---
+F1: This person's profile is inferred from 173 past recipe reviews; nothing in it was confirmed by the person.
+F2: No health goal is known for this person.
+F3: No time limit is known; recipes this person liked typically take about 45 minutes.
+F4: Past reviews suggest the person tends to like recipes featuring: hand-formed-cookies, cookies-and-brownies, desserts, icing sugar, almond extract (inferred pattern).
+F5: Recipes this person liked tend to have lower fiber than typical recipes (medium confidence, inferred).
+F6: Recipes this person liked tend to have higher saturated fat than typical recipes (medium confidence, inferred).
+F7: Not known about this person: allergies, budget, confirmed dietary restrictions, health goal, time budget.
+F8: The recipe is called "Sweetslady's Chocolate Peanut Butter Brownie Trifle".
+F9: Ingredients (as listed): granulated sugar, baking cocoa, all-purpose flour, baking powder, salt, eggs, water, butter, vanilla, package cream cheese, powdered sugar, peanut butter.
+F10: It takes about 60 minutes in total.
+F11: Per serving: 508 kcal, 8 g protein, 30 g fat (16 g saturated), 56 g carbohydrate (44 g sugar, 3 g fibre), 272 mg sodium.
+F12: Compared with other recipes in the dataset, this recipe is high in calories, moderate in sodium, very high in sugar, very high in saturated fat, moderate in protein, moderate in fiber.
+F13: Nutrition-score levels (higher is healthier): 0 out of 4 (Nutri-Score style) and 0 out of 8 (FSA style).
+F14: The recipe features liked items: desserts, peanut butter, vanilla.
+F15: Compared with the person's usual pattern (lower fiber), this recipe is not in line.
+F16: Compared with the person's usual pattern (higher saturated fat), this recipe is in line.
+--- TEMPLATE OUTPUT ---
+Sweetslady's Chocolate Peanut Butter Brownie Trifle is one option we can offer you. It features desserts, peanut butter and vanilla, and your past reviews suggest you tend to like recipes with these. It takes about 60 minutes. It differs from the usual pattern of your favourites, which tend to have lower fiber. Per serving it has about 508 kcal, 8 g of protein and 272 mg of sodium.
+--- DIRECT PROMPT ---
+PERSON
+Profile summarised from 173 recipe reviews over about 2.3 years (164 liked recipes). Everything below is inferred from past behaviour, not confirmed by the person. Tends to like recipes featuring: hand-formed-cookies, cookies-and-brownies, desserts, icing sugar, almond extract. Dietary constraints: none established. Health goal: unknown. Time budget: unknown (liked recipes typically take about 45 minutes). Nutrition pattern in liked recipes: higher saturated fat (medium evidence); lower fiber (medium evidence). Unknown: confirmed_dietary_restrictions, allergies, budget, health_goal, time_budget.
+
+RECIPE
+Title: Sweetslady's Chocolate Peanut Butter Brownie Trifle
+Ingredients:
+- 1 2/3 cups granulated sugar
+- / cup baking cocoa
+- 1 1/3 cups all-purpose flour
+- / teaspoon baking powder
+- / teaspoon salt
+- 2 eggs
+- 2 tablespoons water
+- / cup butter
+- 2 teaspoons vanilla
+- 1 (8 ounce) package cream cheese, softened
+- 2 cups powdered sugar
+- 1 cup peanut butter
+- 0.6666666666666666 cup milk
+- 16 ounces Cool Whip
+- 4 peanut butter cups, chopped
+- chocolate syrup
+Ready in about 60 minutes.
+Nutrition per serving: 508 kcal, 8 g protein, 30 g fat (16 g saturated), 56 g carbohydrate (44 g sugar, 3 g fibre), 272 mg sodium.
+
+Write a short explanation (60 to 110 words, one paragraph, plain text, no lists or headings) addressed to the person as "you", explaining why this recipe is being recommended to them.
+--- GROUNDED PROMPT (user part) ---
+FACTS
+F1: This person's profile is inferred from 173 past recipe reviews; nothing in it was confirmed by the person.
+F2: No health goal is known for this person.
+F3: No time limit is known; recipes this person liked typically take about 45 minutes.
+F4: Past reviews suggest the person tends to like recipes featuring: hand-formed-cookies, cookies-and-brownies, desserts, icing sugar, almond extract (inferred pattern).
+F5: Recipes this person liked tend to have lower fiber than typical recipes (medium confidence, inferred).
+F6: Recipes this person liked tend to have higher saturated fat than typical recipes (medium confidence, inferred).
+F7: Not known about this person: allergies, budget, confirmed dietary restrictions, health goal, time budget.
+F8: The recipe is called "Sweetslady's Chocolate Peanut Butter Brownie Trifle".
+F9: Ingredients (as listed): granulated sugar, baking cocoa, all-purpose flour, baking powder, salt, eggs, water, butter, vanilla, package cream cheese, powdered sugar, peanut butter.
+F10: It takes about 60 minutes in total.
+F11: Per serving: 508 kcal, 8 g protein, 30 g fat (16 g saturated), 56 g carbohydrate (44 g sugar, 3 g fibre), 272 mg sodium.
+F12: Compared with other recipes in the dataset, this recipe is high in calories, moderate in sodium, very high in sugar, very high in saturated fat, moderate in protein, moderate in fiber.
+F13: Nutrition-score levels (higher is healthier): 0 out of 4 (Nutri-Score style) and 0 out of 8 (FSA style).
+F14: The recipe features liked items: desserts, peanut butter, vanilla.
+F15: Compared with the person's usual pattern (lower fiber), this recipe is not in line.
+F16: Compared with the person's usual pattern (higher saturated fat), this recipe is in line.
+
+Tone: neutral and informative. Do not use motivational or persuasive language about health.
+
+Write the explanation now.
+
+====================================================================================================
+CASE H001-r2  role=weak_goal  profile=rich/no_signal
+====================================================================================================
+--- FACT LIST ---
+F1: This person's profile is inferred from 173 past recipe reviews; nothing in it was confirmed by the person.
+F2: No health goal is known for this person.
+F3: No time limit is known; recipes this person liked typically take about 45 minutes.
+F4: Past reviews suggest the person tends to like recipes featuring: hand-formed-cookies, cookies-and-brownies, desserts, icing sugar, almond extract (inferred pattern).
+F5: Recipes this person liked tend to have lower fiber than typical recipes (medium confidence, inferred).
+F6: Recipes this person liked tend to have higher saturated fat than typical recipes (medium confidence, inferred).
+F7: Not known about this person: allergies, budget, confirmed dietary restrictions, health goal, time budget.
+F8: The recipe is called "Erin's PB, Chocolate Chip and Oatmeal Cookies".
+F9: Ingredients (as listed): quick oats, flour, baking powder, baking soda, salt, shortening, natural peanut butter, sugar, brown sugar, eggs, chocolate chips.
+F10: It takes about 26 minutes in total.
+F11: Per serving: 2358 kcal, 42 g protein, 136 g fat (38 g saturated), 267 g carbohydrate (177 g sugar, 15 g fibre), 1214 mg sodium.
+F12: Compared with other recipes in the dataset, this recipe is very high in calories, very high in sodium, very high in sugar, very high in saturated fat, very high in protein, very high in fiber.
+F13: Nutrition-score levels (higher is healthier): 0 out of 4 (Nutri-Score style) and 0 out of 8 (FSA style).
+F14: The recipe features liked items: cookies-and-brownies, desserts, drop-cookies, peanut butter, chocolate.
+F15: Compared with the person's usual pattern (lower fiber), this recipe is not in line.
+F16: Compared with the person's usual pattern (higher saturated fat), this recipe is in line.
+--- TEMPLATE OUTPUT ---
+Erin's PB, Chocolate Chip and Oatmeal Cookies is one option we can offer you. It features cookies-and-brownies, desserts and drop-cookies, and your past reviews suggest you tend to like recipes with these. It takes about 26 minutes. It differs from the usual pattern of your favourites, which tend to have lower fiber. Per serving it has about 2358 kcal, 42 g of protein and 1214 mg of sodium.
+--- DIRECT PROMPT ---
+PERSON
+Profile summarised from 173 recipe reviews over about 2.3 years (164 liked recipes). Everything below is inferred from past behaviour, not confirmed by the person. Tends to like recipes featuring: hand-formed-cookies, cookies-and-brownies, desserts, icing sugar, almond extract. Dietary constraints: none established. Health goal: unknown. Time budget: unknown (liked recipes typically take about 45 minutes). Nutrition pattern in liked recipes: higher saturated fat (medium evidence); lower fiber (medium evidence). Unknown: confirmed_dietary_restrictions, allergies, budget, health_goal, time_budget.
+
+RECIPE
+Title: Erin's PB, Chocolate Chip and Oatmeal Cookies
+Ingredients:
+- 2 cups quick oats
+- 1 1/4 cups flour
+- 1 teaspoon baking powder
+- 1 teaspoon baking soda
+- 0.25 teaspoon salt
+- 1 cup shortening
+- 1 cup natural peanut butter
+- 1 cup sugar
+- 1 cup brown sugar, packed
+- 2 eggs
+- 1 cup chocolate chips
+Ready in about 26 minutes.
+Nutrition per serving: 2358 kcal, 42 g protein, 136 g fat (38 g saturated), 267 g carbohydrate (177 g sugar, 15 g fibre), 1214 mg sodium.
+
+Write a short explanation (60 to 110 words, one paragraph, plain text, no lists or headings) addressed to the person as "you", explaining why this recipe is being recommended to them.
+--- GROUNDED PROMPT (user part) ---
+FACTS
+F1: This person's profile is inferred from 173 past recipe reviews; nothing in it was confirmed by the person.
+F2: No health goal is known for this person.
+F3: No time limit is known; recipes this person liked typically take about 45 minutes.
+F4: Past reviews suggest the person tends to like recipes featuring: hand-formed-cookies, cookies-and-brownies, desserts, icing sugar, almond extract (inferred pattern).
+F5: Recipes this person liked tend to have lower fiber than typical recipes (medium confidence, inferred).
+F6: Recipes this person liked tend to have higher saturated fat than typical recipes (medium confidence, inferred).
+F7: Not known about this person: allergies, budget, confirmed dietary restrictions, health goal, time budget.
+F8: The recipe is called "Erin's PB, Chocolate Chip and Oatmeal Cookies".
+F9: Ingredients (as listed): quick oats, flour, baking powder, baking soda, salt, shortening, natural peanut butter, sugar, brown sugar, eggs, chocolate chips.
+F10: It takes about 26 minutes in total.
+F11: Per serving: 2358 kcal, 42 g protein, 136 g fat (38 g saturated), 267 g carbohydrate (177 g sugar, 15 g fibre), 1214 mg sodium.
+F12: Compared with other recipes in the dataset, this recipe is very high in calories, very high in sodium, very high in sugar, very high in saturated fat, very high in protein, very high in fiber.
+F13: Nutrition-score levels (higher is healthier): 0 out of 4 (Nutri-Score style) and 0 out of 8 (FSA style).
+F14: The recipe features liked items: cookies-and-brownies, desserts, drop-cookies, peanut butter, chocolate.
+F15: Compared with the person's usual pattern (lower fiber), this recipe is not in line.
+F16: Compared with the person's usual pattern (higher saturated fat), this recipe is in line.
+
+Tone: neutral and informative. Do not use motivational or persuasive language about health.
+
+Write the explanation now.
+
+====================================================================================================
+CASE S001-r1  role=strong  profile=standard/busy_vegetarian
+====================================================================================================
+--- FACT LIST ---
+F1: Every preference listed for this person was stated explicitly by them.
+F2: Stated dietary requirement: vegetarian.
+F3: No health goal is known for this person.
+F4: Stated time limit: about 30 minutes or less.
+F5: Stated food likes: pasta, cheese.
+F6: Stated food dislikes: mushroom.
+F7: Not known about this person: allergies, health goal.
+F8: The recipe is called "Go-Go Garlic Bread".
+F9: Ingredients (as listed): butter, mayonnaise, parmesan cheese, garlic, dried oregano, dried basil, seasoning salt, monterey jack cheese, loaf french bread.
+F10: It takes about 20 minutes in total.
+F11: Per serving: 373 kcal, 12 g protein, 14 g fat (7 g saturated), 51 g carbohydrate (3 g sugar, 2 g fibre), 607 mg sodium.
+F12: Compared with other recipes in the dataset, this recipe is moderate in calories, high in sodium, low in sugar, moderate in saturated fat, moderate in protein, moderate in fiber.
+F13: Nutrition-score levels (higher is healthier): 0 out of 4 (Nutri-Score style) and 3 out of 8 (FSA style).
+F14: Dietary check (vegetarian): passes; no ingredient in the list conflicts with it, but the recipe carries no explicit tag for it.
+F15: Time check: 20 minutes is within the 30-minute limit.
+F16: The recipe features liked items: pasta, cheese.
+--- TEMPLATE OUTPUT ---
+Go-Go Garlic Bread is one option we can offer you. It includes pasta and cheese, which are on your list of favourites. No ingredient in the list conflicts with your vegetarian requirement. It takes about 20 minutes, within your 30-minute limit. Per serving it has about 373 kcal, 12 g of protein and 607 mg of sodium.
+--- DIRECT PROMPT ---
+PERSON
+Profile specified explicitly for this benchmark (synthetic persona). States a liking for: pasta, cheese. Dislikes: mushroom. Dietary constraints: vegetarian (stated). Health goal: unknown. Time budget: about 30 minutes or less. Unknown: health_goal.
+
+RECIPE
+Title: Go-Go Garlic Bread
+Ingredients:
+- 0.5 cup butter, softened
+- 0.5 cup mayonnaise (lowfat or light not recommended)
+- 1 tablespoon parmesan cheese, grated
+- 2 teaspoons garlic, minced
+- 0.25 teaspoon dried oregano
+- 0.25 teaspoon dried basil
+- 0.125 teaspoon seasoning salt
+- 0.5 cup monterey jack cheese, shredded
+- 1 loaf French bread, halved lengthwise (about 20 inches)
+Ready in about 20 minutes.
+Nutrition per serving: 373 kcal, 12 g protein, 14 g fat (7 g saturated), 51 g carbohydrate (3 g sugar, 2 g fibre), 607 mg sodium.
+
+Write a short explanation (60 to 110 words, one paragraph, plain text, no lists or headings) addressed to the person as "you", explaining why this recipe is being recommended to them.
+--- GROUNDED PROMPT (user part) ---
+FACTS
+F1: Every preference listed for this person was stated explicitly by them.
+F2: Stated dietary requirement: vegetarian.
+F3: No health goal is known for this person.
+F4: Stated time limit: about 30 minutes or less.
+F5: Stated food likes: pasta, cheese.
+F6: Stated food dislikes: mushroom.
+F7: Not known about this person: allergies, health goal.
+F8: The recipe is called "Go-Go Garlic Bread".
+F9: Ingredients (as listed): butter, mayonnaise, parmesan cheese, garlic, dried oregano, dried basil, seasoning salt, monterey jack cheese, loaf french bread.
+F10: It takes about 20 minutes in total.
+F11: Per serving: 373 kcal, 12 g protein, 14 g fat (7 g saturated), 51 g carbohydrate (3 g sugar, 2 g fibre), 607 mg sodium.
+F12: Compared with other recipes in the dataset, this recipe is moderate in calories, high in sodium, low in sugar, moderate in saturated fat, moderate in protein, moderate in fiber.
+F13: Nutrition-score levels (higher is healthier): 0 out of 4 (Nutri-Score style) and 3 out of 8 (FSA style).
+F14: Dietary check (vegetarian): passes; no ingredient in the list conflicts with it, but the recipe carries no explicit tag for it.
+F15: Time check: 20 minutes is within the 30-minute limit.
+F16: The recipe features liked items: pasta, cheese.
+
+Tone: neutral and informative. Do not use motivational or persuasive language about health.
+
+Write the explanation now.

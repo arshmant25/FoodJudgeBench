@@ -30,5 +30,8 @@ Thumbs.db
 .env.*
 
 
-# Ignore all generated data and logs
-processed/
+# Ignore all CSV files everywhere in the project
+*.csv
+
+# Exceptions: Do NOT ignore CSV files inside the folder you want to push
+!processed/**/*.csv
