@@ -15,7 +15,7 @@ from collections import Counter
 import numpy as np
 import pandas as pd
 
-from common import (DATA_DIR, PROC_DIR, SEED, read_table, write_table, parse_list_cols, informative_tags,
+from config import (DATA_DIR, PROC_DIR, SEED, read_table, write_table, parse_list_cols, informative_tags,
                     norm_ingredient, CONSTRAINT_COL, CONSTRAINT_TAG)
 
 N_CATALOG = 6000

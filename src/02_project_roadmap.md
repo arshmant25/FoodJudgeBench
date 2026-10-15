@@ -31,7 +31,7 @@ FoodJudgeBench/
 ├── data/                      raw pp_*.csv  (gitignored)
 ├── processed/                 generated tables, profiles, cases (gitignored if it contains review text)
 ├── docs/                      reports, rubric, decision log
-├── src/                       common.py, 02_…, 03a_…, 03b_…, later 04_…–10_…
+├── src/                       config.py, 02_…, 03a_…, 03b_…, later 04_…–10_…
 ├── 1_HUMMUS_EDA_v2.ipynb
 └── requirements.txt
 ```

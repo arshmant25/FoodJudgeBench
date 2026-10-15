@@ -13,7 +13,7 @@ import argparse
 import numpy as np
 import pandas as pd
 
-from common import (SEED, GOAL_RULES, read_table, parse_list_cols, constraint_mask, verified_mask, goal_mask, term_mask,
+from config import (SEED, GOAL_RULES, read_table, parse_list_cols, constraint_mask, verified_mask, goal_mask, term_mask,
                     render_profile_text, write_jsonl, PROC_DIR)
 
 MIN_FEASIBLE = 30

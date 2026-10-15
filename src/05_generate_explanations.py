@@ -39,7 +39,7 @@ from datetime import datetime, timezone
 
 import pandas as pd
 
-from common import PROC_DIR, GOAL_RULES, as_list, read_table, scrub_text
+from config import PROC_DIR, GOAL_RULES, as_list, read_table, scrub_text
 from explain_facts_05 import (build_facts, facts_to_prompt, render_template, clean_text, word_count, numeric_mismatches,
                            cited_ids, main_ingredients, ingredient_lines)
 from llm_client_05 import get_client, QuotaExhausted

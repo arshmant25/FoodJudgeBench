@@ -29,7 +29,7 @@ import numpy as np
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 
-from common import (PROC_DIR, SEED, GOAL_RULES, CONSTRAINT_COL, CONSTRAINT_TAG, read_table, parse_list_cols, norm_ingredient,
+from config import (PROC_DIR, SEED, GOAL_RULES, CONSTRAINT_COL, CONSTRAINT_TAG, read_table, parse_list_cols, norm_ingredient,
                     split_items, constraint_mask, goal_mask, term_mask, write_jsonl, _json_default)
 
 # ------------------------------------------------------------------ config

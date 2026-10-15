@@ -11,7 +11,7 @@ import re
 
 from jinja2 import Environment, StrictUndefined
 
-from common import GOAL_RULES, scrub_text
+from config import GOAL_RULES, scrub_text
 
 # goal -> (nutrient label, key in nutrition_per_serving, unit)
 GOAL_NUTRIENT = {
@@ -22,7 +22,7 @@ GOAL_NUTRIENT = {
     "higher protein": ("protein", "protein_g", "g"),
     "more fiber": ("fiber", "fiber_g", "g"),
 }
-assert set(GOAL_NUTRIENT) == set(GOAL_RULES), "GOAL_NUTRIENT must cover every goal in common.GOAL_RULES"
+assert set(GOAL_NUTRIENT) == set(GOAL_RULES), "GOAL_NUTRIENT must cover every goal in config.GOAL_RULES"
 
 _LEVELS = [(0.2, "very low"), (0.4, "low"), (0.6, "moderate"), (0.8, "high"), (1.01, "very high")]
 
