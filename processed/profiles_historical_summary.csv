@@ -1,20 +1,20 @@
 profile_id,label,n_reviews,n_liked,coverage,likes,tendencies,constraints,goal
 H001,rich/no_signal,173,164,0.942,"hand-formed-cookies, cookies-and-brownies, desserts, icing sugar, almond extract",higher saturated fat; lower fiber,,unknown
 H002,rich/no_signal,100,96,0.93,"appetizers, chopped walnuts, fresh ground pepper, mushrooms, white sugar",higher cooking time,,unknown
-H003,rich/no_signal,292,271,0.904,"brie cheese, punch, beverages, curries, spanish",lower cooking time,,unknown
+H003,rich/no_signal,292,271,0.904,"brie cheese, beverages, curries, spanish, tomatoes",lower cooking time,,unknown
 H004,rich/no_signal,101,96,0.911,"soy sauce, boneless skinless chicken breast halves, sandwiches, sesame oil, greens",lower sugar,,unknown
 H005,rich/no_signal,100,79,0.96,"fresh ginger, spaghetti, chinese, sesame oil, cream of chicken soup",higher protein,,unknown
-H006,rich/no_signal,134,127,0.94,"rolls-biscuits, seasoning salt, stews, high-in-something, milk",lower fiber,,unknown
+H006,rich/no_signal,134,127,0.94,"rolls-biscuits, seasoning salt, stews, milk, mexican",lower fiber,,unknown
 H007,rich/no_signal,265,256,0.913,"pinto beans, bacon bits, lean ground beef, ground beef, barbecue sauce",higher sodium; higher protein; higher fiber,,unknown
 H008,rich/no_signal,110,92,0.973,"cauliflower, midwestern, elbow-macaroni, casseroles, pork-chops",higher saturated fat,,unknown
-H009,rich/with_signal,155,144,0.929,"vegan, soy-tofu, firm tofu, vegetarian, soymilk",lower saturated fat; higher fiber; higher overall healthiness score,vegetarian[possible_self_report]; vegan[possible_self_report],unknown
-H010,rich/with_signal,105,88,0.905,"soy-tofu, vegetarian, beans, fresh mushrooms, mushroom",lower sugar,vegetarian[possible_self_report],unknown
+H009,rich/with_signal,155,144,0.929,"soy-tofu, firm tofu, soymilk, vegetable broth, vegetable stock",lower saturated fat; higher fiber; higher overall healthiness score,vegetarian[possible_self_report]; vegan[possible_self_report],unknown
+H010,rich/with_signal,105,88,0.905,"soy-tofu, beans, fresh mushrooms, mushroom, bisques-cream-soups",lower sugar,vegetarian[possible_self_report],unknown
 H011,rich/with_signal,265,257,0.932,"medium shrimp, appetizers, vegetable stock, crab, chickpeas",higher fiber,vegetarian[possible_self_report]; vegan[possible_self_report],unknown
 H012,rich/with_signal,172,164,0.924,"fresh orange juice, arborio rice, brandy, coconut milk, unsalted butter",higher saturated fat; lower overall healthiness score,vegetarian[possible_self_report],unknown
 H013,rich/with_signal,141,127,0.929,"tapioca flour, xanthan gum, dry sherry, cloves garlic, soy sauce",higher sodium; higher protein,gluten-free[possible_self_report],unknown
 H014,rich/with_signal,140,103,0.964,"quick-breads, muffins, baking powder, baking soda, breads",higher sugar,,unknown
 H015,rich/with_signal,299,282,0.88,"grated fresh lemon rind, fruit, quick-breads, maple syrup, shakes",lower calories; lower sodium; higher sugar; lower saturated fat; lower protein; lower cooking time,vegetarian[possible_self_report]; dairy-free[possible_self_report],"possibly prefers lighter eating (calories, sodium, saturated fat)"
-H016,rich/with_signal,188,167,0.872,"bread flour, yeast, unsweetened applesauce, bread-machine, breads",lower calories; lower sodium; lower saturated fat; lower protein,,"possibly prefers lighter eating (calories, sodium, saturated fat)"
+H016,rich/with_signal,188,167,0.872,"bread flour, yeast, unsweetened applesauce, breads, butter or tablespoons template",lower calories; lower sodium; lower saturated fat; lower protein,,"possibly prefers lighter eating (calories, sodium, saturated fat)"
 H017,sparse/no_signal,30,24,1.0,"oregano, chicken, worcestershire sauce, poultry",,,unknown
 H018,sparse/no_signal,37,17,0.919,"worcestershire sauce, garlic powder",,,unknown
 H019,sparse/no_signal,37,30,0.892,"shortening, buttermilk, sugar",lower overall healthiness score,,unknown
@@ -23,9 +23,9 @@ H021,sparse/no_signal,26,24,0.923,"iranian-persian, middle-eastern, asian, beef"
 H022,sparse/no_signal,28,23,0.964,dried oregano,,,unknown
 H023,sparse/no_signal,20,18,0.75,"large eggs, desserts, vanilla",,,unknown
 H024,sparse/with_signal,20,18,0.9,"heavy cream, ground beef, ground-beef, eggs, beef",lower fiber; lower overall healthiness score,,unknown
-H025,sparse/with_signal,26,23,0.923,"cookies-and-brownies, sweet, fall",lower calories; lower sodium; lower saturated fat; lower protein,,"possibly prefers lighter eating (calories, sodium, saturated fat)"
+H025,sparse/with_signal,26,23,0.923,"cookies-and-brownies, sweet",lower calories; lower sodium; lower saturated fat; lower protein,,"possibly prefers lighter eating (calories, sodium, saturated fat)"
 H026,sparse/with_signal,44,42,0.886,appetizers,,,unknown
 H027,sparse/with_signal,32,23,1.0,,,gluten-free[possible_self_report],unknown
 H028,sparse/with_signal,41,39,0.927,"boneless skinless chicken breast halves, chicken-breasts, balsamic vinegar, chicken, tomatoes",,,unknown
-H029,sparse/with_signal,44,42,0.909,"yeast, whole wheat flour, vegan, baking powder, breads",lower protein,vegan[possible_self_report],unknown
+H029,sparse/with_signal,44,42,0.909,"yeast, whole wheat flour, baking powder, breads, cakes",lower protein,vegan[possible_self_report],unknown
 H030,sparse/with_signal,22,19,0.955,brown sugar,,,unknown

@@ -10,6 +10,10 @@
     "max_revisions": 2,
     "framed_n": 20
   },
+  "auditor": {
+    "provider": "ollama",
+    "model": "qwen2.5:7b"
+  },
   "cases": 120,
   "explanations_done": 497,
   "main_480_done": 480,
@@ -19,37 +23,45 @@
   "llm_usage": {
     "provider": "ollama",
     "model": "llama3.1:8b",
-    "api_calls": 844,
-    "cache_hits": 5,
-    "prompt_tokens": 551137,
-    "completion_tokens": 143242
+    "api_calls": 803,
+    "cache_hits": 8,
+    "prompt_tokens": 521317,
+    "completion_tokens": 148384
+  },
+  "audit_llm_usage": {
+    "provider": "ollama",
+    "model": "qwen2.5:7b",
+    "api_calls": 0,
+    "cache_hits": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
   },
   "by_technique": {
     "direct_llm": {
       "n": 120,
-      "words_mean": 81.8,
-      "words_min": 58,
-      "words_max": 99,
-      "share_with_number_not_in_facts": 0.008
+      "words_mean": 83.7,
+      "words_min": 63,
+      "words_max": 103,
+      "share_with_number_not_in_facts": 0.0
     },
     "grounded_check_llm": {
       "n": 120,
-      "words_mean": 71.1,
-      "words_min": 46,
-      "words_max": 102,
+      "words_mean": 77.2,
+      "words_min": 48,
+      "words_max": 116,
       "share_with_number_not_in_facts": 0.0
     },
     "grounded_llm": {
       "n": 137,
-      "words_mean": 81.6,
-      "words_min": 61,
-      "words_max": 118,
+      "words_mean": 81.7,
+      "words_min": 51,
+      "words_max": 111,
       "share_with_number_not_in_facts": 0.0
     },
     "template": {
       "n": 120,
-      "words_mean": 57.2,
-      "words_min": 29,
+      "words_mean": 56.6,
+      "words_min": 28,
       "words_max": 83,
       "share_with_number_not_in_facts": 0.0
     }
@@ -57,8 +69,8 @@
   "check_revise": {
     "share_revised": 0.992,
     "mean_revisions": 1.97,
-    "share_text_changed_vs_grounded": 0.992,
+    "share_text_changed_vs_grounded": 0.542,
     "check_failed": 0,
-    "unresolved_after_revisions": 112
+    "unresolved_after_revisions": 114
   }
 }

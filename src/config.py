@@ -1,6 +1,6 @@
 """Shared helpers for FoodJudgeBench: paths, table IO, text scrubbing, constraint logic, profile text.
 
-Every script in src/ imports this module (python src/02_build_catalog.py puts src/ on sys.path).
+Every script in src/ imports this module.
 """
 from __future__ import annotations
 

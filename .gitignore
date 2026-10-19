@@ -30,8 +30,8 @@ Thumbs.db
 .env.*
 
 
-# Ignore all CSV files everywhere in the project
-*.csv
+# Ignore all Parquet and zipped CSV files everywhere in the project
+*.parquet
 *.csv.gz
 
 # Exceptions: Do NOT ignore CSV files inside the folder you want to push

@@ -3,305 +3,297 @@ H001,historical,302333,strong,1,0.997,True,1.0,False,Sweetslady's Chocolate Pean
 H001,historical,139560,strong,2,0.9948,False,,False,Walnut Chews,45.0,,4,0,
 H001,historical,392340,strong,3,0.9919,False,,False,Delicious Brown Edge Wafers,30.0,,4,0,
 H001,historical,461762,weak_taste,1,0.1268,False,,False,Wrapped Asparagus - Meat,10.0,,0,0,
-H001,historical,79069,weak_goal,1,0.9837,True,2.0,False,"Erin's PB, Chocolate Chip and Oatmeal Cookies",26.0,,5,0,
-H002,historical,269838,strong,1,0.9973,True,1.0,False,Creamy Oven-Baked  Risotto,40.0,,0,0,
-H002,historical,316443,strong,2,0.9932,False,,False,Cinnamon Streusel Blueberry Muffins (Einstein Bagels!),30.0,,1,0,
-H002,historical,302333,strong,3,0.9923,False,,False,Sweetslady's Chocolate Peanut Butter Brownie Trifle,60.0,,0,0,
-H002,historical,227411,weak_taste,1,0.135,True,2.0,False,Jicama Salad,140.0,,0,0,
-H002,historical,391603,weak_goal,1,0.9759,False,,False,One Dish Chicken and Bows,25.0,,0,0,
-H003,historical,302333,strong,1,0.9997,True,1.0,False,Sweetslady's Chocolate Peanut Butter Brownie Trifle,60.0,,0,0,
-H003,historical,492938,strong,2,0.9972,True,2.0,False,Banana Spice Bars,45.0,,0,0,
-H003,historical,13685,strong,3,0.99,False,,False,Grand Peres aux Bleuets (Blueberry Dumplings),45.0,,0,0,
-H003,historical,276074,weak_taste,1,0.1262,False,,False,Chicago Italian Beef,1090.0,,1,0,
-H003,historical,442478,weak_goal,1,0.9862,False,,False,Now This is Alice Springs Chicken,200.0,,0,0,
-H003,historical,106253,weak_dislike,1,0.9731,False,,False,Refreshing Cucumber and Tomato Salad,50.0,,1,1,
-H004,historical,269141,strong,1,0.9953,True,1.0,False,Oven Roasted Broccoli,15.0,,0,0,
-H004,historical,45692,strong,2,0.9886,False,,False,Tequila Lime Chicken from Applebee's,50.0,,0,0,
-H004,historical,50405,strong,3,0.9883,False,,False,"Tomatoes, Mozzarella and Peppers",10.0,,0,0,
-H004,historical,338194,weak_taste,1,0.1986,False,,False,Saucy Egg Sandwiches,10.0,,0,0,
-H004,historical,18228,weak_goal,1,0.9845,True,2.0,False,Tomato and Basil Sauce - Salsa Di Pomodoro E Basilico,40.0,,0,0,
-H005,historical,45692,strong,1,0.996,True,1.0,False,Tequila Lime Chicken from Applebee's,50.0,,0,0,
-H005,historical,51108,strong,2,0.9945,False,,False,Chicken Vino Bianco,50.0,,1,0,
-H005,historical,442478,strong,3,0.9927,False,,False,Now This is Alice Springs Chicken,200.0,,0,0,
-H005,historical,29790,weak_taste,1,0.1576,True,2.0,False,Overnight Peaches & Cream French Toast,30.0,,0,0,
-H005,historical,412337,weak_goal,1,0.9666,False,,False,Amazing Pork Chop or Chicken Marinade,25.0,,1,0,
-H005,historical,374311,weak_dislike,1,0.9222,False,,False,Delicious Meatloaf With Vegetables,85.0,,0,1,
-H006,historical,269838,strong,1,0.9955,True,1.0,False,Creamy Oven-Baked  Risotto,40.0,,1,0,
-H006,historical,268133,strong,2,0.9903,True,2.0,False,Twice-Baked Potato Casserole,65.0,,1,0,
-H006,historical,393639,strong,3,0.9896,False,,False,The Best One-Bowl Hash Brown Potato Casserole,45.0,,2,0,
-H006,historical,172292,weak_taste,1,0.1919,False,,False,Avocado Salsa,245.0,,0,0,
-H006,historical,313576,weak_goal,1,0.9753,False,,False,Nikki's Spaghetti Sauce,55.0,,0,0,
-H007,historical,42350,strong,1,0.9918,True,1.0,False,The Best Chicken Rice Casserole,60.0,,1,0,
-H007,historical,313576,strong,2,0.9892,False,,False,Nikki's Spaghetti Sauce,55.0,,1,0,
-H007,historical,269838,strong,3,0.9878,False,,False,Creamy Oven-Baked  Risotto,40.0,,0,0,
-H007,historical,173027,weak_taste,1,0.1769,False,,False,Lemon Cream Cheese Pie,40.0,,0,0,
-H007,historical,276244,weak_goal,1,0.986,True,2.0,False,Potato Nachos,55.0,,0,0,
-H008,historical,269838,strong,1,0.9959,True,1.0,False,Creamy Oven-Baked  Risotto,40.0,,1,0,
-H008,historical,443290,strong,2,0.9938,False,,False,Chicken or Turkey Tetrazzini,55.0,,0,0,
-H008,historical,268133,strong,3,0.991,False,,False,Twice-Baked Potato Casserole,65.0,,2,0,
-H008,historical,159895,weak_taste,1,0.1364,True,2.0,False,Pb & J Oatmeal,5.0,,0,0,
-H008,historical,185873,weak_goal,1,0.9702,False,,False,Caramelized Onions,55.0,,0,0,
-H008,historical,393639,weak_dislike,1,0.9711,False,,False,The Best One-Bowl Hash Brown Potato Casserole,45.0,,2,1,
-H009,historical,411448,strong,1,0.9939,True,1.0,False,Grilled Zucchini and or Eggplant (Aubergine),16.0,,1,0,
-H009,historical,13685,strong,2,0.989,True,2.0,False,Grand Peres aux Bleuets (Blueberry Dumplings),45.0,,1,0,
-H009,historical,453023,strong,3,0.9869,False,,False,Red Potato and Green Bean Saute,30.0,,0,0,
-H009,historical,248658,weak_taste,1,0.047,False,,False,Cranberry Mustard,15.0,,0,0,
-H009,historical,412337,weak_goal,1,0.9744,False,,False,Amazing Pork Chop or Chicken Marinade,25.0,,0,0,
-H009,historical,505291,weak_dislike,1,0.9936,False,,False,Easy Low Fat Oven Roasted Peppered Potato Wedges,55.0,,2,1,
-H010,historical,450187,strong,1,0.9923,True,1.0,False,Linda's Chunky Garlic Mashed Potatoes,55.0,,1,0,
-H010,historical,401388,strong,2,0.9915,False,,False,Howdy Potatoes,75.0,,3,0,
-H010,historical,268133,strong,3,0.9915,False,,False,Twice-Baked Potato Casserole,65.0,,1,0,
-H010,historical,337513,weak_taste,1,0.2702,False,,False,Quick Pizza Casserole,45.0,,0,0,
-H010,historical,13685,weak_goal,1,0.9878,True,2.0,False,Grand Peres aux Bleuets (Blueberry Dumplings),45.0,,2,0,
-H010,historical,391603,weak_dislike,1,0.9858,False,,False,One Dish Chicken and Bows,25.0,,0,1,
-H011,historical,505291,strong,1,0.9928,True,1.0,False,Easy Low Fat Oven Roasted Peppered Potato Wedges,55.0,,1,0,
-H011,historical,18228,strong,2,0.9901,False,,False,Tomato and Basil Sauce - Salsa Di Pomodoro E Basilico,40.0,,0,0,
-H011,historical,492938,strong,3,0.9895,False,,False,Banana Spice Bars,45.0,,0,0,
-H011,historical,191358,weak_taste,1,0.2413,True,2.0,False,Grilled Chicken and Pasta Salad,30.0,,0,0,
-H011,historical,106253,weak_goal,1,0.9803,False,,False,Refreshing Cucumber and Tomato Salad,50.0,,1,0,
-H012,historical,442478,strong,1,0.9928,True,1.0,False,Now This is Alice Springs Chicken,200.0,,0,0,
-H012,historical,492938,strong,2,0.9923,True,2.0,False,Banana Spice Bars,45.0,,1,0,
-H012,historical,13685,strong,3,0.9903,False,,False,Grand Peres aux Bleuets (Blueberry Dumplings),45.0,,0,0,
-H012,historical,257627,weak_taste,1,0.1544,False,,False,Curried Lentil and Vegetable Soup,65.0,,0,0,
-H012,historical,505291,weak_goal,1,0.9833,False,,False,Easy Low Fat Oven Roasted Peppered Potato Wedges,55.0,,0,0,
-H013,historical,442478,strong,1,0.9967,True,1.0,False,Now This is Alice Springs Chicken,200.0,,0,0,
-H013,historical,196888,strong,2,0.991,False,,False,Mexican Chorizo,15.0,,1,0,
-H013,historical,444775,strong,3,0.9897,False,,False,Grilled Herbed Salmon,17.0,,3,0,
-H013,historical,52264,weak_taste,1,0.2404,False,,False,Buttered Rum-Spiced Cider,25.0,,0,0,
-H013,historical,396572,weak_goal,1,0.9865,True,2.0,False,Rhubarb Dumplings,10.0,,1,0,
-H013,historical,333147,weak_dislike,1,0.9803,False,,False,Healthier Chicken Marsala,45.0,,1,1,
-H014,historical,136620,strong,1,0.9326,True,1.0,False,Oat and Fig Squares,40.0,,4,0,
-H014,historical,187754,strong,2,0.9197,False,,False,Popovers,35.0,,2,0,
-H014,historical,500801,strong,3,0.9101,False,,False,Kate's Basic Crepes,60.0,,1,0,
-H014,historical,443077,weak_taste,1,0.2456,True,2.0,False,Baba Ganouy( Baba Ghanoush/ Baba Gannoujh ),65.0,,0,0,
-H014,historical,165371,weak_goal,1,0.8923,False,,False,Creamy Baked Potato Soup,55.0,,2,0,
-H014,historical,314626,weak_dislike,1,0.995,False,,False,Kona Inn Banana Bread,55.0,,4,3,
-H015,historical,314196,strong,1,0.9918,True,1.0,False,Ultimate Oatmeal Cookies,27.0,,3,0,
-H015,historical,339098,strong,2,0.9888,True,2.0,False,Walnut Streusel Coffee Cake,50.0,,0,0,
-H015,historical,392340,strong,3,0.9887,False,,False,Delicious Brown Edge Wafers,30.0,,0,0,
-H015,historical,1458,weak_taste,1,0.2318,False,,False,Okra Baked With Bacon,55.0,,0,0,
-H015,historical,180136,weak_goal,1,0.9681,False,,False,Rose's World Famous Pancakes,15.0,,0,0,
-H015,historical,13685,weak_dislike,1,0.9896,False,,False,Grand Peres aux Bleuets (Blueberry Dumplings),45.0,,2,1,
-H016,historical,314626,strong,1,0.9948,True,1.0,False,Kona Inn Banana Bread,55.0,,1,0,
-H016,historical,316443,strong,2,0.993,False,,False,Cinnamon Streusel Blueberry Muffins (Einstein Bagels!),30.0,,0,0,
-H016,historical,339098,strong,3,0.9861,False,,False,Walnut Streusel Coffee Cake,50.0,,1,0,
-H016,historical,200656,weak_taste,1,0.2708,False,,False,Delicious Oatmeal (W W Core),16.0,,0,0,
-H016,historical,340247,weak_goal,1,0.9849,True,2.0,False,Banana Sour Cream Bread,75.0,,2,0,
-H016,historical,23303,weak_dislike,1,0.9084,False,,False,Crumb Cake Mix,10.0,,0,1,
-H017,historical,442478,strong,1,0.9875,True,1.0,False,Now This is Alice Springs Chicken,200.0,,2,0,
-H017,historical,86378,strong,2,0.9869,False,,False,Yummy Loaded Potato Soup,45.0,,0,0,
-H017,historical,390511,strong,3,0.9867,False,,False,Drew's Homemade Pimiento Cheese - Spicy or Mild,10.0,,0,0,
-H017,historical,124026,weak_taste,1,0.1196,True,2.0,False,Spanish Thick Hot Chocolate,13.0,,0,0,
-H018,historical,357597,strong,1,0.9939,True,1.0,False,Memphis Style Coleslaw,8.0,,1,0,
-H018,historical,117082,strong,2,0.9909,True,2.0,False,Easy Summer Cucumbers,65.0,,0,0,
-H018,historical,421883,strong,3,0.9898,False,,False,Dawn's Dream Burgers,30.0,,2,0,
-H018,historical,415411,weak_taste,1,0.0397,False,,False,'tis the Season Coconut Macaroons,24.0,,0,0,
-H019,historical,492938,strong,1,0.996,True,1.0,False,Banana Spice Bars,45.0,,2,0,
-H019,historical,440245,strong,2,0.9955,False,,False,6 Week Bran Muffins (Auntie Anne's Muffins),40.0,,2,0,
-H019,historical,302333,strong,3,0.991,False,,False,Sweetslady's Chocolate Peanut Butter Brownie Trifle,60.0,,1,0,
-H019,historical,7516,weak_taste,1,0.2123,False,,False,Yam Fries,3.0,,0,0,
-H019,historical,314558,weak_goal,1,0.98,True,2.0,False,Grandma D's Famous Snickerdoodles,35.0,,2,0,
-H020,historical,421883,strong,1,0.9961,True,1.0,False,Dawn's Dream Burgers,30.0,,2,0,
-H020,historical,269838,strong,2,0.9877,False,,False,Creamy Oven-Baked  Risotto,40.0,,0,0,
-H020,historical,1455,strong,3,0.9862,False,,False,BBQ Meatballs (Courtesy of Pioneer Woman),60.0,,2,0,
-H020,historical,410484,weak_taste,1,0.2035,True,2.0,False,Ww Strawberry Omelet - Omelette Aux Fraises,15.0,,0,0,
-H021,historical,269838,strong,1,0.9954,True,1.0,False,Creamy Oven-Baked  Risotto,40.0,,0,0,
-H021,historical,66373,strong,2,0.9846,True,2.0,False,Three Packs and a Roast,485.0,,1,0,
-H021,historical,98649,strong,3,0.982,False,,False,Shepherd's Pie With Garlic Potato Topping,70.0,,1,0,
-H021,historical,381104,weak_taste,1,0.1707,False,,False,Strawberry-Rhubarb Sundaes,15.0,,0,0,
-H022,historical,196888,strong,1,0.9944,True,1.0,False,Mexican Chorizo,15.0,,1,0,
-H022,historical,444775,strong,2,0.9922,False,,False,Grilled Herbed Salmon,17.0,,1,0,
-H022,historical,87800,strong,3,0.9912,False,,False,Firecracker Salmon OAMC,20.0,,0,0,
-H022,historical,273391,weak_taste,1,0.2095,True,2.0,False,All-American Cowboy Salad,40.0,,0,0,
-H023,historical,207787,strong,1,0.9976,True,1.0,False,Apple Bread,75.0,,1,0,
-H023,historical,392340,strong,2,0.9937,False,,False,Delicious Brown Edge Wafers,30.0,,2,0,
-H023,historical,492938,strong,3,0.992,False,,False,Banana Spice Bars,45.0,,2,0,
-H023,historical,229204,weak_taste,1,0.1025,True,2.0,False,Slow Cooker Pulled Pork,390.0,,0,0,
-H024,historical,139560,strong,1,0.9944,True,1.0,False,Walnut Chews,45.0,,1,0,
-H024,historical,392340,strong,2,0.9924,True,2.0,False,Delicious Brown Edge Wafers,30.0,,1,0,
-H024,historical,500801,strong,3,0.9895,False,,False,Kate's Basic Crepes,60.0,,1,0,
-H024,historical,201721,weak_taste,1,0.1984,False,,False,Grilled Brussels Sprouts,20.0,,0,0,
-H024,historical,207787,weak_goal,1,0.9885,False,,False,Apple Bread,75.0,,1,0,
-H025,historical,492938,strong,1,0.9962,True,1.0,False,Banana Spice Bars,45.0,,3,0,
-H025,historical,396572,strong,2,0.9944,False,,False,Rhubarb Dumplings,10.0,,0,0,
-H025,historical,314196,strong,3,0.9941,False,,False,Ultimate Oatmeal Cookies,27.0,,0,0,
-H025,historical,130713,weak_taste,1,0.0741,False,,False,Acadia's Coffee Amaretto Delight,5.0,,0,0,
-H025,historical,440721,weak_goal,1,0.9738,True,2.0,False,Barb's Best Carrot Cake,75.0,,1,0,
-H026,historical,302333,strong,1,0.9962,True,1.0,False,Sweetslady's Chocolate Peanut Butter Brownie Trifle,60.0,,0,0,
-H026,historical,407311,strong,2,0.9913,False,,False,Chicken Avocado Cheese Bake,40.0,,0,0,
-H026,historical,316443,strong,3,0.9884,False,,False,Cinnamon Streusel Blueberry Muffins (Einstein Bagels!),30.0,,0,0,
-H026,historical,57286,weak_taste,1,0.0973,True,2.0,False,"Pomegranate, Honey & Quinoa Breakfast",25.0,,0,0,
-H027,historical,128783,strong,1,0.9926,True,1.0,False,Season's German Pancake,25.0,,0,0,
-H027,historical,392340,strong,2,0.9898,True,2.0,False,Delicious Brown Edge Wafers,30.0,,0,0,
-H027,historical,339098,strong,3,0.9892,False,,False,Walnut Streusel Coffee Cake,50.0,,0,0,
-H027,historical,272420,weak_taste,1,0.2281,False,,False,Iceberg Wedges With Creamy Blue Cheese Dressing,10.0,,0,0,
-H028,historical,442478,strong,1,0.9972,True,1.0,False,Now This is Alice Springs Chicken,200.0,,3,0,
-H028,historical,42350,strong,2,0.9966,False,,False,The Best Chicken Rice Casserole,60.0,,3,0,
-H028,historical,51108,strong,3,0.9896,False,,False,Chicken Vino Bianco,50.0,,1,0,
-H028,historical,363711,weak_taste,1,0.2598,True,2.0,False,Crescent Roll Bars,45.0,,0,0,
-H029,historical,492938,strong,1,0.9949,True,1.0,False,Banana Spice Bars,45.0,,2,0,
-H029,historical,316443,strong,2,0.9874,False,,False,Cinnamon Streusel Blueberry Muffins (Einstein Bagels!),30.0,,1,0,
-H029,historical,64436,strong,3,0.987,False,,False,Double Chocolate Snowquakes,35.0,,2,0,
-H029,historical,50611,weak_taste,1,0.1982,True,2.0,False,Greek Cheese Toast,20.0,,1,0,
-H029,historical,207787,weak_goal,1,0.9794,False,,False,Apple Bread,75.0,,1,0,
-H030,historical,302333,strong,1,0.9963,True,1.0,False,Sweetslady's Chocolate Peanut Butter Brownie Trifle,60.0,,0,0,
-H030,historical,139560,strong,2,0.9887,True,2.0,False,Walnut Chews,45.0,,1,0,
-H030,historical,13685,strong,3,0.987,False,,False,Grand Peres aux Bleuets (Blueberry Dumplings),45.0,,1,0,
-H030,historical,3224,weak_taste,1,0.0576,False,,False,Low-Fat Alfredo Sauce,30.0,,0,0,
+H001,historical,79069,weak_goal,1,0.9837,True,2.0,False,"Erin's PB, Chocolate Chip and Oatmeal Cookies",26.0,,4,0,
 S001,synthetic,299388,strong,1,0.999,True,1.0,False,Go-Go Garlic Bread,20.0,,2,0,vegetarian:rule_only
 S001,synthetic,282448,strong,2,0.984,False,,False,Macaroni & Tomatoes,20.0,,2,0,vegetarian:rule_only
 S001,synthetic,354541,strong,3,0.9795,False,,False,Gotta-Have-It Garlic Bread,15.0,,2,0,vegetarian:verified
-S001,synthetic,338699,weak_taste,1,0.0324,True,2.0,False,Banana Pumpkin Smoothie,5.0,,0,0,vegetarian:verified
+S001,synthetic,97835,weak_taste,1,0.0271,True,2.0,False,Fran's Soft Chocolate Chip Cookies,22.0,,0,0,vegetarian:rule_only
 S001,synthetic,313773,weak_dislike,1,0.9598,False,,False,"""Make That Chicken Dance"" Salsa Pasta",30.0,,2,1,vegetarian:rule_only
 S001,synthetic,242919,violates_constraint,1,0.9946,False,,True,Italian Sausage Sandwich,30.0,,2,0,vegetarian:violates
+H002,historical,269838,strong,1,0.9973,True,1.0,False,Creamy Oven-Baked  Risotto,40.0,,0,0,
+H002,historical,316443,strong,2,0.9932,False,,False,Cinnamon Streusel Blueberry Muffins (Einstein Bagels!),30.0,,1,0,
+H002,historical,302333,strong,3,0.9923,False,,False,Sweetslady's Chocolate Peanut Butter Brownie Trifle,60.0,,0,0,
+H002,historical,122046,weak_taste,1,0.0666,False,,False,Carob Pudding (Juliano -- Raw),7.0,,0,0,
+H002,historical,391603,weak_goal,1,0.9759,True,2.0,False,One Dish Chicken and Bows,25.0,,0,0,
 S002,synthetic,67996,strong,1,0.9918,True,1.0,False,Caribbean Fruity Chicken Salad,15.0,True,2,0,
 S002,synthetic,421678,strong,2,0.9803,False,,False,Tuscan Chicken Sandwich,10.0,True,2,0,
 S002,synthetic,476864,strong,3,0.9678,False,,False,Strawberry and Orange Chicken Salad,5.0,True,2,0,
-S002,synthetic,302941,weak_taste,1,0.0884,True,2.0,False,Brown Sugar Muffins,23.0,False,0,0,
-S002,synthetic,398179,weak_goal,1,0.6992,False,,False,Rosemary Chicken Salad Sandwiches,5.0,False,2,0,
+S002,synthetic,35171,weak_taste,1,0.0281,False,,False,Creamy Green Beans and Stuffing Casserole,35.0,False,0,0,
+S002,synthetic,398179,weak_goal,1,0.6992,True,2.0,False,Rosemary Chicken Salad Sandwiches,5.0,False,2,0,
+H003,historical,302333,strong,1,0.9997,True,1.0,False,Sweetslady's Chocolate Peanut Butter Brownie Trifle,60.0,,0,0,
+H003,historical,492938,strong,2,0.9972,False,,False,Banana Spice Bars,45.0,,0,0,
+H003,historical,13685,strong,3,0.99,False,,False,Grand Peres aux Bleuets (Blueberry Dumplings),45.0,,0,0,
+H003,historical,417596,weak_taste,1,0.0557,False,,False,Strawberry Jam (Bread Machine),11.0,,0,0,
+H003,historical,442478,weak_goal,1,0.9862,True,2.0,False,Now This is Alice Springs Chicken,200.0,,0,0,
 S003,synthetic,57009,strong,1,0.844,True,1.0,False,Tibetan Greens With Tofu (Tse Tofu),20.0,True,2,0,vegan:verified
-S003,synthetic,319544,strong,2,0.8167,True,2.0,False,Chickpea and Vegetable Curry,35.0,True,2,0,vegan:verified
+S003,synthetic,319544,strong,2,0.8167,False,,False,Chickpea and Vegetable Curry,35.0,True,2,0,vegan:verified
 S003,synthetic,162471,strong,3,0.7344,False,,False,Hummus,10.0,True,1,0,vegan:rule_only
-S003,synthetic,449555,weak_taste,1,0.0419,False,,False,Marinated Broccoli Slaw,10.0,False,0,0,vegan:verified
-S003,synthetic,418126,weak_goal,1,0.6678,False,,False,Scrambled Tofu,35.0,False,2,0,vegan:rule_only
+S003,synthetic,408879,weak_taste,1,0.0369,False,,False,Barley Soup With Root Vegetables,40.0,False,0,0,vegan:verified
+S003,synthetic,418126,weak_goal,1,0.6678,True,2.0,False,Scrambled Tofu,35.0,False,2,0,vegan:rule_only
 S003,synthetic,46799,violates_constraint,1,0.9351,False,,True,Terrific Tofu Stuffed Shells,45.0,True,2,0,vegan:violates
+H004,historical,269141,strong,1,0.9953,True,1.0,False,Oven Roasted Broccoli,15.0,,0,0,
+H004,historical,45692,strong,2,0.9886,False,,False,Tequila Lime Chicken from Applebee's,50.0,,0,0,
+H004,historical,50405,strong,3,0.9883,False,,False,"Tomatoes, Mozzarella and Peppers",10.0,,0,0,
+H004,historical,459567,weak_taste,1,0.1938,False,,False,Quick 'N Easy Paella,40.0,,0,0,
+H004,historical,18228,weak_goal,1,0.9845,True,2.0,False,Tomato and Basil Sauce - Salsa Di Pomodoro E Basilico,40.0,,0,0,
 S004,synthetic,89571,strong,1,0.9994,True,1.0,False,Mexican-Style Rice (Sopa Seca),30.0,,2,0,nut-free:rule_only
 S004,synthetic,191358,strong,2,0.984,False,,False,Grilled Chicken and Pasta Salad,30.0,,2,0,nut-free:rule_only
 S004,synthetic,384080,strong,3,0.984,False,,False,Pasta Shells With Chicken and Brussels Sprouts,25.0,,2,0,nut-free:rule_only
-S004,synthetic,352773,weak_taste,1,0.0712,True,2.0,False,BBQ Sauce - Dairy Free,20.0,,0,0,nut-free:rule_only
+S004,synthetic,355596,weak_taste,1,0.0712,True,2.0,False,Eggnog for Diabetics,5.0,,0,0,nut-free:rule_only
 S004,synthetic,81483,weak_dislike,1,0.9598,False,,False,Lemon Pepper Shrimp Linguine,20.0,,2,1,nut-free:rule_only
 S004,synthetic,227458,violates_constraint,1,0.9925,False,,True,Ramen Broccoli Slaw,5.0,,2,0,nut-free:violates
+H005,historical,45692,strong,1,0.996,True,1.0,False,Tequila Lime Chicken from Applebee's,50.0,,0,0,
+H005,historical,51108,strong,2,0.9945,False,,False,Chicken Vino Bianco,50.0,,1,0,
+H005,historical,442478,strong,3,0.9927,False,,False,Now This is Alice Springs Chicken,200.0,,0,0,
+H005,historical,142,weak_taste,1,0.2327,False,,False,Southwest Sonoran Sunrise Breakfast Quiche,70.0,,0,0,
+H005,historical,412337,weak_goal,1,0.9666,True,2.0,False,Amazing Pork Chop or Chicken Marinade,25.0,,1,0,
 S005,synthetic,440368,strong,1,0.928,True,1.0,False,Chicken & Noodle Slaw,10.0,True,2,0,
 S005,synthetic,146803,strong,2,0.7465,False,,False,Nine a Day Salad,15.0,True,1,0,
 S005,synthetic,458917,strong,3,0.7453,False,,False,"Avocado, Tomato & Corn Salad/Salsa",10.0,True,1,0,
-S005,synthetic,1237,weak_taste,1,0.0144,True,2.0,False,Unsloppy Joes (Easy Vegetarian Sloppy Joes),25.0,False,0,0,
-S005,synthetic,119907,weak_goal,1,0.6678,False,,False,Crunchy Chicken Caesar,25.0,False,2,0,
+S005,synthetic,3553,weak_taste,1,0.0112,False,,False,Triple Apple Bread (Bread Machine),20.0,False,0,0,
+S005,synthetic,119907,weak_goal,1,0.6678,True,2.0,False,Crunchy Chicken Caesar,25.0,False,2,0,
 S005,synthetic,239745,weak_dislike,1,0.8281,False,,False,Grilled Chicken Caesar Salad,17.0,True,2,1,
+H006,historical,269838,strong,1,0.9955,True,1.0,False,Creamy Oven-Baked  Risotto,40.0,,1,0,
+H006,historical,268133,strong,2,0.9903,False,,False,Twice-Baked Potato Casserole,65.0,,0,0,
+H006,historical,393639,strong,3,0.9896,False,,False,The Best One-Bowl Hash Brown Potato Casserole,45.0,,2,0,
+H006,historical,33653,weak_taste,1,0.2169,False,,False,Leek & Delicata Squash Soup With Caramelized Apple Croutons,75.0,,0,0,
+H006,historical,313576,weak_goal,1,0.9753,True,2.0,False,Nikki's Spaghetti Sauce,55.0,,0,0,
 S006,synthetic,328264,strong,1,0.625,True,1.0,False,Onion Roasted Potatoes,55.0,,1,0,gluten-free:rule_only
-S006,synthetic,450187,strong,2,0.6248,True,2.0,False,Linda's Chunky Garlic Mashed Potatoes,55.0,,1,0,gluten-free:rule_only
+S006,synthetic,450187,strong,2,0.6248,False,,False,Linda's Chunky Garlic Mashed Potatoes,55.0,,1,0,gluten-free:rule_only
 S006,synthetic,294456,strong,3,0.6238,False,,False,"Mashed Root Veggies - ""stappa""",40.0,,1,0,gluten-free:rule_only
-S006,synthetic,494135,weak_taste,1,0.0019,False,,False,Kraft's Fantasy Fudge,35.0,,0,0,gluten-free:rule_only
+S006,synthetic,155300,weak_taste,1,0.0062,True,2.0,False,Sesame Pea Pods,15.0,,0,0,gluten-free:rule_only
 S006,synthetic,297260,violates_constraint,1,0.8947,False,,True,"Healthy, Fudgy, Brownies",60.0,,2,0,gluten-free:violates
+H007,historical,42350,strong,1,0.9918,True,1.0,False,The Best Chicken Rice Casserole,60.0,,1,0,
+H007,historical,313576,strong,2,0.9892,False,,False,Nikki's Spaghetti Sauce,55.0,,1,0,
+H007,historical,269838,strong,3,0.9878,False,,False,Creamy Oven-Baked  Risotto,40.0,,0,0,
+H007,historical,138495,weak_taste,1,0.1874,False,,False,Dark Chocolate Fridge Squares,20.0,,0,0,
+H007,historical,276244,weak_goal,1,0.986,True,2.0,False,Potato Nachos,55.0,,0,0,
 S007,synthetic,26517,strong,1,0.9872,True,1.0,False,Spicy Dill Rice,30.0,True,2,0,dairy-free:rule_only
 S007,synthetic,254406,strong,2,0.9618,False,,False,Easy Mexican Rice,25.0,True,2,0,dairy-free:rule_only
 S007,synthetic,110136,strong,3,0.957,False,,False,Mediterranean Herbed Rice,30.0,True,2,0,dairy-free:rule_only
-S007,synthetic,8293,weak_taste,1,0.0777,False,,False,Green Tomatillo Sauce,30.0,False,0,0,dairy-free:rule_only
+S007,synthetic,125070,weak_taste,1,0.0495,False,,False,Korrat (Leeks),30.0,False,0,0,dairy-free:rule_only
 S007,synthetic,89571,weak_goal,1,0.6995,True,2.0,False,Mexican-Style Rice (Sopa Seca),30.0,False,2,0,dairy-free:rule_only
 S007,synthetic,391248,violates_constraint,1,0.9976,False,,True,V Best Spanish Rice (Easy),35.0,True,2,0,dairy-free:violates
+H008,historical,269838,strong,1,0.9959,True,1.0,False,Creamy Oven-Baked  Risotto,40.0,,1,0,
+H008,historical,443290,strong,2,0.9938,False,,False,Chicken or Turkey Tetrazzini,55.0,,0,0,
+H008,historical,268133,strong,3,0.991,False,,False,Twice-Baked Potato Casserole,65.0,,2,0,
+H008,historical,209900,weak_taste,1,0.1453,False,,False,Light Apple Blueberry Pancakes,3.0,,0,0,
+H008,historical,185873,weak_goal,1,0.9702,True,2.0,False,Caramelized Onions,55.0,,0,0,
 S008,synthetic,143776,strong,1,0.9918,True,1.0,False,Simple and Delicious Low Fat Vegetarian Chili,35.0,True,2,0,vegetarian:verified
 S008,synthetic,332653,strong,2,0.9872,False,,False,Greek Vegetables,20.0,True,2,0,vegetarian:verified
 S008,synthetic,49519,strong,3,0.9766,False,,False,Meatless Italian Minestrone,40.0,True,2,0,vegetarian:rule_only
-S008,synthetic,462919,weak_taste,1,0.0259,True,2.0,False,Easy Bake Oven Chocolate Cake Mix,5.0,False,0,0,vegetarian:rule_only
-S008,synthetic,88190,weak_goal,1,0.6803,False,,False,Crispy Fried Green Beans,15.0,False,2,0,vegetarian:rule_only
+S008,synthetic,376353,weak_taste,1,0.0641,False,,False,Animal Crackers,20.0,False,0,0,vegetarian:rule_only
+S008,synthetic,88190,weak_goal,1,0.6803,True,2.0,False,Crispy Fried Green Beans,15.0,False,2,0,vegetarian:rule_only
 S008,synthetic,146803,weak_dislike,1,0.7465,False,,False,Nine a Day Salad,15.0,True,1,1,vegetarian:verified
 S008,synthetic,317622,violates_constraint,1,0.9971,False,,True,Mexican Black Bean Soup With Sausage,30.0,True,2,0,vegetarian:violates
+H009,historical,411448,strong,1,0.9939,True,1.0,False,Grilled Zucchini and or Eggplant (Aubergine),16.0,,0,0,
+H009,historical,505291,strong,2,0.9936,False,,False,Easy Low Fat Oven Roasted Peppered Potato Wedges,55.0,,0,0,
+H009,historical,13685,strong,3,0.989,False,,False,Grand Peres aux Bleuets (Blueberry Dumplings),45.0,,0,0,
+H009,historical,234878,weak_taste,1,0.0767,False,,False,Easy Peasy Dream Whip Chocolate Mousse,15.0,,0,0,
+H009,historical,412337,weak_goal,1,0.9744,True,2.0,False,Amazing Pork Chop or Chicken Marinade,25.0,,0,0,
 S009,synthetic,89571,strong,1,0.9995,True,1.0,False,Mexican-Style Rice (Sopa Seca),30.0,True,2,0,
-S009,synthetic,191358,strong,2,0.9872,True,2.0,False,Grilled Chicken and Pasta Salad,30.0,True,2,0,
+S009,synthetic,191358,strong,2,0.9872,False,,False,Grilled Chicken and Pasta Salad,30.0,True,2,0,
 S009,synthetic,26517,strong,3,0.9872,False,,False,Spicy Dill Rice,30.0,True,2,0,
-S009,synthetic,480704,weak_taste,1,0.0185,False,,False,Outback Steakhouse Macaroni and Cheese (Mac-A-Roo & Cheese C,20.0,False,0,0,
-S009,synthetic,42350,weak_goal,1,0.6996,False,,False,The Best Chicken Rice Casserole,60.0,False,2,0,
+S009,synthetic,155783,weak_taste,1,0.1242,False,,False,Sweet and Sour Meatballs (Oriental Sweet and Sour  Meatballs),50.0,False,0,0,
+S009,synthetic,42350,weak_goal,1,0.6996,True,2.0,False,The Best Chicken Rice Casserole,60.0,False,2,0,
 S009,synthetic,254406,weak_dislike,1,0.9618,False,,False,Easy Mexican Rice,25.0,True,2,1,
+H010,historical,450187,strong,1,0.9923,True,1.0,False,Linda's Chunky Garlic Mashed Potatoes,55.0,,1,0,
+H010,historical,401388,strong,2,0.9915,False,,False,Howdy Potatoes,75.0,,2,0,
+H010,historical,268133,strong,3,0.9915,False,,False,Twice-Baked Potato Casserole,65.0,,1,0,
+H010,historical,378743,weak_taste,1,0.242,False,,False,Red Raspberry Sauce,10.0,,0,0,
+H010,historical,13685,weak_goal,1,0.9878,True,2.0,False,Grand Peres aux Bleuets (Blueberry Dumplings),45.0,,0,0,
 S010,synthetic,11351,strong,1,0.9754,True,1.0,False,Cheerios Nuggets,30.0,,2,0,vegan:rule_only
 S010,synthetic,173252,strong,2,0.9598,False,,False,Deceptively Delicious Vegan Chocolate Cookies,38.0,,2,0,vegan:verified
 S010,synthetic,74188,strong,3,0.8878,False,,False,Chocolate Oat Cookie Bars,40.0,,2,0,vegan:verified
-S010,synthetic,504675,weak_taste,1,0.0246,True,2.0,False,Quinoa and Roasted Vegetables,55.0,,0,0,vegan:verified
+S010,synthetic,278783,weak_taste,1,0.0801,True,2.0,False,Edamame Succotash,15.0,,0,0,vegan:rule_only
 S010,synthetic,302333,violates_constraint,1,0.9997,False,,True,Sweetslady's Chocolate Peanut Butter Brownie Trifle,60.0,,2,0,vegan:violates
+H011,historical,505291,strong,1,0.9928,True,1.0,False,Easy Low Fat Oven Roasted Peppered Potato Wedges,55.0,,0,0,
+H011,historical,18228,strong,2,0.9901,False,,False,Tomato and Basil Sauce - Salsa Di Pomodoro E Basilico,40.0,,0,0,
+H011,historical,492938,strong,3,0.9895,False,,False,Banana Spice Bars,45.0,,0,0,
+H011,historical,334728,weak_taste,1,0.1881,False,,False,Szechuan Bok Choy,11.0,,0,0,
+H011,historical,106253,weak_goal,1,0.9803,True,2.0,False,Refreshing Cucumber and Tomato Salad,50.0,,0,0,
 S011,synthetic,452888,strong,1,0.9836,True,1.0,False,Thai Chicken With Basil and Coconut Milk,30.0,True,2,0,gluten-free:rule_only
 S011,synthetic,259733,strong,2,0.9803,False,,False,Chili Chicken,30.0,True,2,0,gluten-free:rule_only
 S011,synthetic,305737,strong,3,0.9471,False,,False,Mexican Salad in a Tortilla (Ww 6 Pts),20.0,True,2,0,gluten-free:rule_only
-S011,synthetic,459612,weak_taste,1,0.0726,True,2.0,False,Magic Shell Copycat,10.0,False,0,0,gluten-free:rule_only
-S011,synthetic,156094,weak_goal,1,0.5813,False,,False,Awesome Thai Chicken Coconut Curry,35.0,False,2,0,gluten-free:rule_only
+S011,synthetic,54520,weak_taste,1,0.019,False,,False,Easy Peasy Low-Fat Creamy Fruit Smoothie,5.0,False,0,0,gluten-free:rule_only
+S011,synthetic,156094,weak_goal,1,0.5813,True,2.0,False,Awesome Thai Chicken Coconut Curry,35.0,False,2,0,gluten-free:rule_only
 S011,synthetic,152539,violates_constraint,1,0.9803,False,,True,Spicy Thai-Style Chicken,30.0,True,2,0,gluten-free:violates
+H012,historical,442478,strong,1,0.9928,True,1.0,False,Now This is Alice Springs Chicken,200.0,,0,0,
+H012,historical,492938,strong,2,0.9923,False,,False,Banana Spice Bars,45.0,,1,0,
+H012,historical,13685,strong,3,0.9903,False,,False,Grand Peres aux Bleuets (Blueberry Dumplings),45.0,,0,0,
+H012,historical,384246,weak_taste,1,0.2349,False,,False,Cream Cheese Olive Pimento Spread,15.0,,0,0,
+H012,historical,505291,weak_goal,1,0.9833,True,2.0,False,Easy Low Fat Oven Roasted Peppered Potato Wedges,55.0,,0,0,
 S012,synthetic,458917,strong,1,0.9942,True,1.0,False,"Avocado, Tomato & Corn Salad/Salsa",10.0,,2,0,nut-free:rule_only
-S012,synthetic,99160,strong,2,0.9898,True,2.0,False,Retro Firecracker Prawn Cocktail Shots!  (Shrimp Cocktail Shots),5.0,,2,0,nut-free:rule_only
+S012,synthetic,99160,strong,2,0.9898,False,,False,Retro Firecracker Prawn Cocktail Shots!  (Shrimp Cocktail Shots),5.0,,2,0,nut-free:rule_only
 S012,synthetic,51682,strong,3,0.9879,False,,False,Black Bean and Corn Salad ( Dip ),15.0,,2,0,nut-free:rule_only
-S012,synthetic,92068,weak_taste,1,0.0774,False,,False,Basic Chinese Sauce for Stir Fry,7.0,,0,0,nut-free:rule_only
+S012,synthetic,171442,weak_taste,1,0.0056,True,2.0,False,Guacamole,5.0,,0,0,nut-free:rule_only
 S012,synthetic,146803,violates_constraint,1,0.9956,False,,True,Nine a Day Salad,15.0,,2,0,nut-free:violates
+H013,historical,442478,strong,1,0.9967,True,1.0,False,Now This is Alice Springs Chicken,200.0,,0,0,
+H013,historical,196888,strong,2,0.991,False,,False,Mexican Chorizo,15.0,,1,0,
+H013,historical,444775,strong,3,0.9897,False,,False,Grilled Herbed Salmon,17.0,,2,0,
+H013,historical,23352,weak_taste,1,0.1465,False,,False,Healthy Egg Salad Sandwich,5.0,,0,0,
+H013,historical,396572,weak_goal,1,0.9865,True,2.0,False,Rhubarb Dumplings,10.0,,1,0,
+H013,historical,92026,weak_dislike,1,0.921,False,,False,Spicy Turkey Burger,22.0,,1,1,
 S013,synthetic,101510,strong,1,0.9956,True,1.0,False,Tomato and Basil Orzo Salad,35.0,,2,0,"vegetarian:rule_only,nut-free:rule_only"
 S013,synthetic,236778,strong,2,0.9917,False,,False,Tabbouleh a La Paula Wolfert,20.0,,2,0,"vegetarian:verified,nut-free:rule_only"
 S013,synthetic,282448,strong,3,0.984,False,,False,Macaroni & Tomatoes,20.0,,2,0,"vegetarian:rule_only,nut-free:rule_only"
-S013,synthetic,474993,weak_taste,1,0.0015,True,2.0,False,Low Carb Iced Coffee,2.0,,0,0,"vegetarian:rule_only,nut-free:rule_only"
+S013,synthetic,254955,weak_taste,1,0.0208,True,2.0,False,Moosewood Restaurant Almost Fat-Free Cornbread,45.0,,0,0,"vegetarian:rule_only,nut-free:rule_only"
 S013,synthetic,89571,violates_constraint,1,0.9994,False,,True,Mexican-Style Rice (Sopa Seca),30.0,,2,0,"vegetarian:violates,nut-free:rule_only"
+H014,historical,314626,strong,1,0.995,True,1.0,False,Kona Inn Banana Bread,55.0,,4,0,
+H014,historical,314196,strong,2,0.9913,False,,False,Ultimate Oatmeal Cookies,27.0,,3,0,
+H014,historical,440245,strong,3,0.9849,False,,False,6 Week Bran Muffins (Auntie Anne's Muffins),40.0,,5,0,
+H014,historical,60771,weak_taste,1,0.2385,True,2.0,False,Tuna Salad #4 : Tuna and White Bean Salad,10.0,,0,0,
+H014,historical,392340,weak_goal,1,0.9535,False,,False,Delicious Brown Edge Wafers,30.0,,3,0,
 S014,synthetic,342372,strong,1,0.9918,True,1.0,False,Mediterranean Mujadarra,60.0,True,2,0,"dairy-free:rule_only,vegetarian:rule_only"
 S014,synthetic,105405,strong,2,0.9471,False,,False,Sopa De Frijoles Con Huevos (Bean and Egg Soup),25.0,True,2,0,"dairy-free:rule_only,vegetarian:rule_only"
 S014,synthetic,463051,strong,3,0.9471,False,,False,Soybean and Carrot Salad,20.0,True,2,0,"dairy-free:rule_only,vegetarian:verified"
-S014,synthetic,230943,weak_taste,1,0.0619,True,2.0,False,Cranberry-Orange Muffins,30.0,False,0,0,"dairy-free:rule_only,vegetarian:rule_only"
+S014,synthetic,7338,weak_taste,1,0.0209,True,2.0,False,Homemade Finger Paint,10.0,False,0,0,"dairy-free:rule_only,vegetarian:rule_only"
 S014,synthetic,321999,weak_goal,1,0.6803,False,,False,Tabbouleh Wrapped in Romaine Leaves,30.0,False,2,0,"dairy-free:rule_only,vegetarian:verified"
 S014,synthetic,125468,violates_constraint,1,0.9935,False,,True,Skillet Hopping John,40.0,True,2,0,"dairy-free:violates,vegetarian:violates"
+H015,historical,314196,strong,1,0.9918,True,1.0,False,Ultimate Oatmeal Cookies,27.0,,3,0,
+H015,historical,13685,strong,2,0.9896,False,,False,Grand Peres aux Bleuets (Blueberry Dumplings),45.0,,1,0,
+H015,historical,339098,strong,3,0.9888,False,,False,Walnut Streusel Coffee Cake,50.0,,0,0,
+H015,historical,327556,weak_taste,1,0.2557,True,2.0,False,Potato Apple Cinnamon Fritters #5FIX,13.0,,0,0,
+H015,historical,392340,weak_goal,1,0.9887,False,,False,Delicious Brown Edge Wafers,30.0,,0,0,
 S015,synthetic,282448,strong,1,0.9872,True,1.0,False,Macaroni & Tomatoes,20.0,True,3,0,
-S015,synthetic,22306,strong,2,0.9618,True,2.0,False,Quinoa Greek Salad,35.0,True,3,0,
+S015,synthetic,22306,strong,2,0.9618,False,,False,Quinoa Greek Salad,35.0,True,3,0,
 S015,synthetic,338194,strong,3,0.9158,False,,False,Saucy Egg Sandwiches,10.0,True,3,0,
-S015,synthetic,105687,weak_taste,1,0.0748,False,,False,Italian Sausage and Sauerkraut,45.0,False,0,0,
+S015,synthetic,33555,weak_taste,1,0.249,True,2.0,False,Cornbread Pudding Cake (Tomalito),35.0,False,1,0,
 S015,synthetic,299388,weak_goal,1,0.6992,False,,False,Go-Go Garlic Bread,20.0,False,3,0,
+H016,historical,314626,strong,1,0.9948,True,1.0,False,Kona Inn Banana Bread,55.0,,1,0,
+H016,historical,316443,strong,2,0.993,False,,False,Cinnamon Streusel Blueberry Muffins (Einstein Bagels!),30.0,,0,0,
+H016,historical,339098,strong,3,0.9861,False,,False,Walnut Streusel Coffee Cake,50.0,,1,0,
+H016,historical,336067,weak_taste,1,0.0758,True,2.0,False,Margarita Punch,10.0,,0,0,
+H016,historical,340247,weak_goal,1,0.9849,False,,False,Banana Sour Cream Bread,75.0,,2,0,
 S016,synthetic,162471,strong,1,0.9844,True,1.0,False,Hummus,10.0,True,1,0,vegan:rule_only
 S016,synthetic,130164,strong,2,0.9471,False,,False,Ridiculously Easy Mexican Beans,6.0,True,1,0,vegan:rule_only
 S016,synthetic,146803,strong,3,0.6965,False,,False,Nine a Day Salad,15.0,False,1,0,vegan:verified
-S016,synthetic,6024,weak_taste,1,0.0664,False,,False,"Jicama, Orange & Raisin Salad",15.0,False,0,0,vegan:rule_only
-S016,synthetic,51682,weak_goal,1,0.6903,True,2.0,False,Black Bean and Corn Salad ( Dip ),15.0,False,1,0,vegan:rule_only
+S016,synthetic,194755,weak_taste,1,0.0383,True,2.0,False,Soda Pop Marinade for Chicken,5.0,False,0,0,vegan:rule_only
+S016,synthetic,51682,weak_goal,1,0.6903,False,,False,Black Bean and Corn Salad ( Dip ),15.0,False,1,0,vegan:rule_only
 S016,synthetic,192703,violates_constraint,1,0.9803,False,,True,Mexican Scrambled Eggs,10.0,True,1,0,vegan:violates
+H017,historical,442478,strong,1,0.9875,True,1.0,False,Now This is Alice Springs Chicken,200.0,,2,0,
+H017,historical,86378,strong,2,0.9869,False,,False,Yummy Loaded Potato Soup,45.0,,0,0,
+H017,historical,390511,strong,3,0.9867,False,,False,Drew's Homemade Pimiento Cheese - Spicy or Mild,10.0,,0,0,
+H017,historical,67308,weak_taste,1,0.2346,True,2.0,False,Hot Buttered Garlic Noodles,20.0,,0,0,
 S017,synthetic,290489,strong,1,0.8979,True,1.0,False,Better Frizzled Cabbage,20.0,True,2,0,
 S017,synthetic,421770,strong,2,0.7499,False,,False,Mini Quiche,22.0,True,1,0,
 S017,synthetic,359178,strong,3,0.7493,False,,False,Cheesecake Dip,15.0,True,1,0,
-S017,synthetic,257833,weak_taste,1,0.0619,True,2.0,False,Pumpkin Biscuits,44.0,False,0,0,
+S017,synthetic,79124,weak_taste,1,0.0777,True,2.0,False,Arctic Char With Pears,22.0,False,0,0,
 S017,synthetic,68318,weak_goal,1,0.6803,False,,False,Grilled Veggie Bundles,35.0,False,2,0,
+H018,historical,357597,strong,1,0.9939,True,1.0,False,Memphis Style Coleslaw,8.0,,1,0,
+H018,historical,117082,strong,2,0.9909,False,,False,Easy Summer Cucumbers,65.0,,0,0,
+H018,historical,421883,strong,3,0.9898,False,,False,Dawn's Dream Burgers,30.0,,2,0,
+H018,historical,47577,weak_taste,1,0.1312,True,2.0,False,Crunchy Chocolate-Fieldberry Yogurt Cup,15.0,,0,0,
 S018,synthetic,411380,strong,1,0.8979,True,1.0,False,Chocolate Cherry Chewies,33.0,True,2,0,
-S018,synthetic,286029,strong,2,0.857,True,2.0,False,Low Carb Chocolate Chip Cookies,15.0,True,2,0,
+S018,synthetic,286029,strong,2,0.857,False,,False,Low Carb Chocolate Chip Cookies,15.0,True,2,0,
 S018,synthetic,101652,strong,3,0.8071,False,,False,Low Carb Brownies With Chocolate Frosting,45.0,True,2,0,
-S018,synthetic,266094,weak_taste,1,0.0726,False,,False,Hibiscus & Rose Hip Iced Tea With Cranberry Juice,15.0,False,0,0,
+S018,synthetic,427216,weak_taste,1,0.0979,True,2.0,False,Smokin' Sweet Bar-B-Que Sauce,45.0,False,0,0,
 S018,synthetic,302333,weak_goal,1,0.6998,False,,False,Sweetslady's Chocolate Peanut Butter Brownie Trifle,60.0,False,2,0,
+H019,historical,492938,strong,1,0.996,True,1.0,False,Banana Spice Bars,45.0,,2,0,
+H019,historical,440245,strong,2,0.9955,False,,False,6 Week Bran Muffins (Auntie Anne's Muffins),40.0,,1,0,
+H019,historical,302333,strong,3,0.991,False,,False,Sweetslady's Chocolate Peanut Butter Brownie Trifle,60.0,,0,0,
+H019,historical,441650,weak_taste,1,0.1641,True,2.0,False,Mocha Balls,90.0,,0,0,
+H019,historical,314558,weak_goal,1,0.98,False,,False,Grandma D's Famous Snickerdoodles,35.0,,2,0,
 S019,synthetic,421770,strong,1,0.9999,True,1.0,False,Mini Quiche,22.0,True,2,0,
 S019,synthetic,474854,strong,2,0.9976,False,,False,"Roasted Eggplant, Onion and Garlic Dip or Spread",45.0,True,2,0,
 S019,synthetic,252636,strong,3,0.9971,False,,False,Easy Phyllo Pastry Tarts with Hot Pepper Jelly,35.0,True,2,0,
-S019,synthetic,353822,weak_taste,1,0.1678,False,,False,Mom's Marinated Flank Steak,20.0,False,0,0,
-S019,synthetic,103256,weak_goal,1,0.7,True,2.0,False,Breakfast Casserole Seasoned With Country Gravy,40.0,False,2,0,
+S019,synthetic,194089,weak_taste,1,0.307,True,2.0,False,Lemon Rice,40.0,False,1,0,
+S019,synthetic,103256,weak_goal,1,0.7,False,,False,Breakfast Casserole Seasoned With Country Gravy,40.0,False,2,0,
+H020,historical,421883,strong,1,0.9961,True,1.0,False,Dawn's Dream Burgers,30.0,,2,0,
+H020,historical,269838,strong,2,0.9877,False,,False,Creamy Oven-Baked  Risotto,40.0,,0,0,
+H020,historical,1455,strong,3,0.9862,False,,False,BBQ Meatballs (Courtesy of Pioneer Woman),60.0,,2,0,
+H020,historical,383160,weak_taste,1,0.2033,True,2.0,False,Tex Mex Taco Burgers,35.0,,0,0,
 S020,synthetic,233175,strong,1,0.9918,True,1.0,False,Italian Vegetable Soup,45.0,True,2,0,
 S020,synthetic,477008,strong,2,0.9088,False,,False,Pierogie Soup,25.0,True,2,0,
 S020,synthetic,328264,strong,3,0.75,False,,False,Onion Roasted Potatoes,55.0,True,1,0,
-S020,synthetic,472178,weak_taste,1,0.1158,True,2.0,False,Quick Cherry Turnovers,18.0,False,0,0,
+S020,synthetic,238401,weak_taste,1,0.0358,True,2.0,False,Sesame Tofu,40.0,False,0,0,
 S020,synthetic,318841,weak_goal,1,0.6844,False,,False,Instant Potato-Breaded Chicken Scampi,40.0,False,2,0,
+H021,historical,269838,strong,1,0.9954,True,1.0,False,Creamy Oven-Baked  Risotto,40.0,,0,0,
+H021,historical,66373,strong,2,0.9846,True,2.0,False,Three Packs and a Roast,485.0,,1,0,
+H021,historical,98649,strong,3,0.982,False,,False,Shepherd's Pie With Garlic Potato Topping,70.0,,1,0,
+H021,historical,189659,weak_taste,1,0.1134,False,,False,Cherries in the Snow,10.0,,0,0,
 S021,synthetic,332711,strong,1,0.9965,True,1.0,False,Curried Chicken Salad With Mangoes and Cashews,10.0,True,1,0,gluten-free:rule_only
 S021,synthetic,67996,strong,2,0.9918,True,2.0,False,Caribbean Fruity Chicken Salad,15.0,True,1,0,gluten-free:verified
 S021,synthetic,350369,strong,3,0.9803,False,,False,Pineapple Chicken Salad Sandwich,10.0,True,1,0,gluten-free:rule_only
 S021,synthetic,229198,weak_taste,1,0.057,False,,False,Citrus and Spinach Salad,15.0,False,0,0,gluten-free:rule_only
 S021,synthetic,419093,weak_goal,1,0.6918,False,,False,Condensed Cream of Soup Mix ( Homemade / Substitute / Clone ),5.0,False,1,0,gluten-free:rule_only
 S021,synthetic,398179,violates_constraint,1,0.9992,False,,True,Rosemary Chicken Salad Sandwiches,5.0,True,1,0,gluten-free:violates
+H022,historical,196888,strong,1,0.9944,True,1.0,False,Mexican Chorizo,15.0,,1,0,
+H022,historical,444775,strong,2,0.9922,True,2.0,False,Grilled Herbed Salmon,17.0,,1,0,
+H022,historical,87800,strong,3,0.9912,False,,False,Firecracker Salmon OAMC,20.0,,0,0,
+H022,historical,481800,weak_taste,1,0.2447,False,,False,Lemon Cream Cheese Cookies,24.0,,0,0,
 S022,synthetic,192703,strong,1,0.9803,True,1.0,False,Mexican Scrambled Eggs,10.0,True,2,0,vegetarian:rule_only
-S022,synthetic,247296,strong,2,0.7486,False,,False,Baked Meatballs,15.0,True,1,0,vegetarian:rule_only
+S022,synthetic,247296,strong,2,0.7486,True,2.0,False,Baked Meatballs,15.0,True,1,0,vegetarian:rule_only
 S022,synthetic,120701,strong,3,0.7465,False,,False,Easy Cheese-Tomato Melt,4.0,True,1,0,vegetarian:verified
-S022,synthetic,464148,weak_taste,1,0.0419,False,,False,Delicious Homemade Pancake Syrup,12.0,False,0,0,vegetarian:rule_only
-S022,synthetic,421495,weak_goal,1,0.6872,True,2.0,False,Tex-Mex Layered Dip,10.0,False,2,0,vegetarian:rule_only
+S022,synthetic,429015,weak_taste,1,0.04,False,,False,Miso Sesame Vinaigrette,5.0,False,0,0,vegetarian:rule_only
+S022,synthetic,421495,weak_goal,1,0.6872,False,,False,Tex-Mex Layered Dip,10.0,False,2,0,vegetarian:rule_only
 S022,synthetic,441056,violates_constraint,1,0.7372,False,,True,Bagel Tuna Melt,15.0,True,1,0,vegetarian:violates
+H023,historical,207787,strong,1,0.9976,True,1.0,False,Apple Bread,75.0,,1,0,
+H023,historical,392340,strong,2,0.9937,True,2.0,False,Delicious Brown Edge Wafers,30.0,,2,0,
+H023,historical,492938,strong,3,0.992,False,,False,Banana Spice Bars,45.0,,2,0,
+H023,historical,454386,weak_taste,1,0.2489,False,,False,Chocolate Mint Pie,15.0,,1,0,
 S023,synthetic,269141,strong,1,0.9997,True,1.0,False,Oven Roasted Broccoli,15.0,,0,0,
-S023,synthetic,421770,strong,2,0.9995,False,,False,Mini Quiche,22.0,,0,0,
+S023,synthetic,421770,strong,2,0.9995,True,2.0,False,Mini Quiche,22.0,,0,0,
 S023,synthetic,66421,strong,3,0.9993,False,,False,Quesadillas for One or Two,15.0,,0,0,
-S023,synthetic,324838,weak_taste,1,0.2412,True,2.0,False,Mojo Pork,28.0,,0,0,
+S023,synthetic,400020,weak_taste,1,0.1845,False,,False,Rick's Trout,15.0,,0,0,
+H024,historical,139560,strong,1,0.9944,True,1.0,False,Walnut Chews,45.0,,1,0,
+H024,historical,392340,strong,2,0.9924,True,2.0,False,Delicious Brown Edge Wafers,30.0,,1,0,
+H024,historical,500801,strong,3,0.9895,False,,False,Kate's Basic Crepes,60.0,,1,0,
+H024,historical,366030,weak_taste,1,0.2196,False,,False,Pilafi (Greek Style Rice),25.0,,0,0,
+H024,historical,207787,weak_goal,1,0.9885,False,,False,Apple Bread,75.0,,1,0,
 S024,synthetic,42350,strong,1,0.9995,True,1.0,False,The Best Chicken Rice Casserole,60.0,,2,0,
 S024,synthetic,89571,strong,2,0.9994,True,2.0,False,Mexican-Style Rice (Sopa Seca),30.0,,2,0,
 S024,synthetic,225434,strong,3,0.9988,False,,False,Nasi Goreng,55.0,,2,0,
-S024,synthetic,51615,weak_taste,1,0.0151,False,,False,Yellow Summer Squash Muffins,45.0,,0,0,
+S024,synthetic,400194,weak_taste,1,0.0524,False,,False,Green Vege Stir Fry,30.0,,0,0,
+H025,historical,492938,strong,1,0.9962,True,1.0,False,Banana Spice Bars,45.0,,2,0,
+H025,historical,396572,strong,2,0.9944,True,2.0,False,Rhubarb Dumplings,10.0,,0,0,
+H025,historical,314196,strong,3,0.9941,False,,False,Ultimate Oatmeal Cookies,27.0,,0,0,
+H025,historical,364774,weak_taste,1,0.1761,False,,False,Hot and Zingy Chex Mix,70.0,,0,0,
+H025,historical,440721,weak_goal,1,0.9738,False,,False,Barb's Best Carrot Cake,75.0,,1,0,
 S025,synthetic,421770,strong,1,0.9997,True,1.0,False,Mini Quiche,22.0,True,0,0,
-S025,synthetic,139560,strong,2,0.9991,False,,False,Walnut Chews,45.0,True,0,0,
+S025,synthetic,139560,strong,2,0.9991,True,2.0,False,Walnut Chews,45.0,True,0,0,
 S025,synthetic,461314,strong,3,0.9985,False,,False,Raspberry-Cranberry Salad (with sour cream-cream cheese topping),10.0,True,0,0,
-S025,synthetic,143247,weak_taste,1,0.1857,False,,False,Mongolian Beef Stir Fry,35.0,False,0,0,
-S025,synthetic,328264,weak_goal,1,0.6,True,2.0,False,Onion Roasted Potatoes,55.0,False,0,0,
+S025,synthetic,494649,weak_taste,1,0.1375,False,,False,Cranberry Glazed Ham,105.0,False,0,0,
+S025,synthetic,328264,weak_goal,1,0.6,False,,False,Onion Roasted Potatoes,55.0,False,0,0,
+H026,historical,302333,strong,1,0.9962,True,1.0,False,Sweetslady's Chocolate Peanut Butter Brownie Trifle,60.0,,0,0,
+H026,historical,407311,strong,2,0.9913,True,2.0,False,Chicken Avocado Cheese Bake,40.0,,0,0,
+H026,historical,316443,strong,3,0.9884,False,,False,Cinnamon Streusel Blueberry Muffins (Einstein Bagels!),30.0,,0,0,
+H026,historical,232115,weak_taste,1,0.1445,False,,False,Turkey Soup,250.0,,0,0,
 S026,synthetic,328264,strong,1,1.0,True,1.0,False,Onion Roasted Potatoes,55.0,,0,0,vegan:rule_only
-S026,synthetic,276837,strong,2,0.9975,False,,False,Roasted Tomatoes Onions and Zucchini,35.0,,0,0,vegan:rule_only
+S026,synthetic,276837,strong,2,0.9975,True,2.0,False,Roasted Tomatoes Onions and Zucchini,35.0,,0,0,vegan:rule_only
 S026,synthetic,301481,strong,3,0.9967,False,,False,Pumpkin Pie Spice,5.0,,0,0,vegan:rule_only
-S026,synthetic,13779,weak_taste,1,0.1158,True,2.0,False,Meringue Powder Royal Icing,5.0,,0,0,vegan:rule_only
+S026,synthetic,193010,weak_taste,1,0.1355,False,,False,Grandma's Dumplings from Scratch: 100+ Year Old Recipe,20.0,,0,0,vegan:rule_only
 S026,synthetic,103256,violates_constraint,1,0.9998,False,,True,Breakfast Casserole Seasoned With Country Gravy,40.0,,0,0,vegan:violates
+H027,historical,128783,strong,1,0.9926,True,1.0,False,Season's German Pancake,25.0,,0,0,
+H027,historical,392340,strong,2,0.9898,True,2.0,False,Delicious Brown Edge Wafers,30.0,,0,0,
+H027,historical,339098,strong,3,0.9892,False,,False,Walnut Streusel Coffee Cake,50.0,,0,0,
+H027,historical,120701,weak_taste,1,0.2227,False,,False,Easy Cheese-Tomato Melt,4.0,,0,0,
 S027,synthetic,404337,strong,1,0.9978,True,1.0,False,Turkey and Dumplings,40.0,,1,0,
 S027,synthetic,50753,strong,2,0.9978,True,2.0,False,Better Than Granny's and Easy Chicken and Dumplings,35.0,,1,0,
 S027,synthetic,391248,strong,3,0.997,False,,False,V Best Spanish Rice (Easy),35.0,,1,0,
-S027,synthetic,40279,weak_taste,1,0.018,False,,False,Baked Salmon With Mustard-Crumb Crust,30.0,,0,0,
+S027,synthetic,455857,weak_taste,1,0.0096,False,,False,Olive Oil and Garlic Bruschetta,20.0,,0,0,
+H028,historical,442478,strong,1,0.9972,True,1.0,False,Now This is Alice Springs Chicken,200.0,,3,0,
+H028,historical,42350,strong,2,0.9966,True,2.0,False,The Best Chicken Rice Casserole,60.0,,3,0,
+H028,historical,51108,strong,3,0.9896,False,,False,Chicken Vino Bianco,50.0,,1,0,
+H028,historical,198380,weak_taste,1,0.1952,False,,False,Mashed Cauliflower Comfort Food,13.0,,0,0,
 S028,synthetic,103256,strong,1,0.9998,True,1.0,False,Breakfast Casserole Seasoned With Country Gravy,40.0,,0,0,
-S028,synthetic,269141,strong,2,0.9997,False,,False,Oven Roasted Broccoli,15.0,,0,0,
+S028,synthetic,269141,strong,2,0.9997,True,2.0,False,Oven Roasted Broccoli,15.0,,0,0,
 S028,synthetic,99988,strong,3,0.9993,False,,False,Southeastern North Carolina Pulled Pork,255.0,,0,0,
-S028,synthetic,192474,weak_taste,1,0.069,True,2.0,False,Chocolate Chip Marshmallow Cookies,20.0,,0,0,
+S028,synthetic,287347,weak_taste,1,0.0385,False,,False,Amish Texas Chocolate Roll Cake,35.0,,0,0,
 S028,synthetic,328264,weak_dislike,1,1.0,False,,False,Onion Roasted Potatoes,55.0,,0,1,
+H029,historical,492938,strong,1,0.9949,True,1.0,False,Banana Spice Bars,45.0,,2,0,
+H029,historical,316443,strong,2,0.9874,True,2.0,False,Cinnamon Streusel Blueberry Muffins (Einstein Bagels!),30.0,,1,0,
+H029,historical,64436,strong,3,0.987,False,,False,Double Chocolate Snowquakes,35.0,,1,0,
+H029,historical,16850,weak_taste,1,0.1801,False,,False,Easy Honey Mustard Chicken Breast,25.0,,0,0,
+H029,historical,207787,weak_goal,1,0.9794,False,,False,Apple Bread,75.0,,1,0,
 S029,synthetic,89571,strong,1,0.9994,True,1.0,False,Mexican-Style Rice (Sopa Seca),30.0,,2,0,
-S029,synthetic,285913,strong,2,0.9983,False,,False,"Baked Ziti With Spinach, Sausage, and Mozzarella",60.0,,2,0,
+S029,synthetic,285913,strong,2,0.9983,True,2.0,False,"Baked Ziti With Spinach, Sausage, and Mozzarella",60.0,,2,0,
 S029,synthetic,51108,strong,3,0.997,False,,False,Chicken Vino Bianco,50.0,,2,0,
-S029,synthetic,365900,weak_taste,1,0.0573,True,2.0,False,Carrot-Raisin Muffins,35.0,,0,0,
+S029,synthetic,346370,weak_taste,1,0.0246,False,,False,5 Minute Lemon Pie,5.0,,0,0,
+H030,historical,302333,strong,1,0.9963,True,1.0,False,Sweetslady's Chocolate Peanut Butter Brownie Trifle,60.0,,0,0,
+H030,historical,139560,strong,2,0.9887,True,2.0,False,Walnut Chews,45.0,,1,0,
+H030,historical,13685,strong,3,0.987,False,,False,Grand Peres aux Bleuets (Blueberry Dumplings),45.0,,1,0,
+H030,historical,92068,weak_taste,1,0.138,False,,False,Basic Chinese Sauce for Stir Fry,7.0,,0,0,
 S030,synthetic,299388,strong,1,0.999,True,1.0,False,Go-Go Garlic Bread,20.0,,1,0,
 S030,synthetic,220024,strong,2,0.9983,True,2.0,False,Mom's 100% Whole Wheat Air Buns (Rolls)  for Abm,200.0,,1,0,
 S030,synthetic,249666,strong,3,0.9934,False,,False,Maple Crunch Oatmeal,27.0,,1,0,
