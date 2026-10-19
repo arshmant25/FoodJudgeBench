@@ -81,37 +81,44 @@ F4: Past reviews suggest the person tends to like recipes featuring: hand-formed
 F5: Recipes this person liked tend to have lower fiber than typical recipes (medium confidence, inferred).
 F6: Recipes this person liked tend to have higher saturated fat than typical recipes (medium confidence, inferred).
 F7: Not known about this person: allergies, budget, confirmed dietary restrictions, dislikes, health goal, time budget.
-F8: The recipe is called "Erin's PB, Chocolate Chip and Oatmeal Cookies".
-F9: Ingredients (as listed): quick oats, flour, baking powder, baking soda, salt, shortening, natural peanut butter, sugar, brown sugar, eggs, chocolate chips.
-F10: It takes about 26 minutes in total.
-F11: Per serving: 2358 kcal, 42 g protein, 136 g fat (38 g saturated), 267 g carbohydrate (177 g sugar, 15 g fibre), 1214 mg sodium.
-F12: Compared with other recipes in the dataset, this recipe is very high in calories, very high in sodium, very high in sugar, very high in saturated fat, very high in protein, very high in fiber.
+F8: The recipe is called "Barb's Best Carrot Cake".
+F9: Ingredients (as listed): white sugar, brown sugar, eggs, vegetable oil, flour, baking powder, baking soda, cinnamon, salt, shredded carrots, chopped walnuts, raisins.
+F10: It takes about 75 minutes in total.
+F11: Per serving: 1106 kcal, 10 g protein, 58 g fat (18 g saturated), 142 g carbohydrate (112 g sugar, 4 g fibre), 978 mg sodium.
+F12: Compared with other recipes in the dataset, this recipe is very high in calories, very high in sodium, very high in sugar, very high in saturated fat, moderate in protein, high in fiber.
 F13: Nutrition-score levels (higher is healthier): 0 out of 4 (Nutri-Score style) and 0 out of 8 (FSA style).
-F14: The recipe features liked items: cookies-and-brownies, desserts, drop-cookies, chocolate.
+F14: The recipe features liked items: desserts.
 F15: Compared with the person's usual pattern (lower fiber), this recipe is not in line.
 F16: Compared with the person's usual pattern (higher saturated fat), this recipe is in line.
 --- TEMPLATE OUTPUT ---
-Erin's PB, Chocolate Chip and Oatmeal Cookies is one option we can offer you. It features cookies-and-brownies, desserts and drop-cookies, and your past reviews suggest you tend to like recipes with these. It takes about 26 minutes. It differs from the usual pattern of your favourites, which tend to have lower fiber. Per serving it has about 2358 kcal, 42 g of protein and 1214 mg of sodium.
+Barb's Best Carrot Cake is one option we can offer you. It features desserts, and your past reviews suggest you tend to like recipes with these. It takes about 75 minutes. It differs from the usual pattern of your favourites, which tend to have lower fiber. Per serving it has about 1106 kcal, 10 g of protein and 978 mg of sodium.
 --- DIRECT PROMPT ---
 PERSON
 Profile summarised from 173 recipe reviews over about 2.3 years (164 liked recipes). Everything below is inferred from past behaviour, not confirmed by the person. Tends to like recipes featuring: hand-formed-cookies, cookies-and-brownies, desserts, icing sugar, almond extract. Dietary constraints: none established. Health goal: unknown. Time budget: unknown (liked recipes typically take about 45 minutes). Nutrition pattern in liked recipes: higher saturated fat (medium evidence); lower fiber (medium evidence). Unknown: confirmed_dietary_restrictions, allergies, budget, dislikes (only 9 low-rated recipes); 10 required), health_goal, time_budget.
 
 RECIPE
-Title: Erin's PB, Chocolate Chip and Oatmeal Cookies
+Title: Barb's Best Carrot Cake
 Ingredients:
-- 2 cups quick oats
-- 1 1/4 cups flour
-- 1 teaspoon baking powder
-- 1 teaspoon baking soda
-- 0.25 teaspoon salt
-- 1 cup shortening
-- 1 cup natural peanut butter
-- 1 cup sugar
-- 1 cup brown sugar, packed
-- 2 eggs
-- 1 cup chocolate chips
-Ready in about 26 minutes.
-Nutrition per serving: 2358 kcal, 42 g protein, 136 g fat (38 g saturated), 267 g carbohydrate (177 g sugar, 15 g fibre), 1214 mg sodium.
+- 1 cup white sugar
+- 1 cup brown sugar
+- 4 eggs
+- 1 cup vegetable oil
+- 2 cups flour
+- 2 teaspoons baking powder
+- 2 teaspoons baking soda
+- 1 tablespoon cinnamon
+- 1 teaspoon salt
+- 4 cups shredded carrots
+- 0.6666666666666666 cup chopped walnuts
+- 0.3333333333333333 cup raisins (optional)
+- 1 (8 ounce) package cream cheese
+- 0.5 cup butter
+- 1 teaspoon vanilla extract
+- 1 teaspoon lemon juice
+- 0.5 teaspoon lemon, zest of, of
+- 1 lb powdered sugar
+Ready in about 75 minutes.
+Nutrition per serving: 1106 kcal, 10 g protein, 58 g fat (18 g saturated), 142 g carbohydrate (112 g sugar, 4 g fibre), 978 mg sodium.
 
 Write a short explanation (60 to 110 words, one paragraph, plain text, no lists or headings) addressed to the person as "you", explaining why this recipe is being recommended to them.
 --- GROUNDED PROMPT (user part) ---
@@ -123,13 +130,13 @@ F4: Past reviews suggest the person tends to like recipes featuring: hand-formed
 F5: Recipes this person liked tend to have lower fiber than typical recipes (medium confidence, inferred).
 F6: Recipes this person liked tend to have higher saturated fat than typical recipes (medium confidence, inferred).
 F7: Not known about this person: allergies, budget, confirmed dietary restrictions, dislikes, health goal, time budget.
-F8: The recipe is called "Erin's PB, Chocolate Chip and Oatmeal Cookies".
-F9: Ingredients (as listed): quick oats, flour, baking powder, baking soda, salt, shortening, natural peanut butter, sugar, brown sugar, eggs, chocolate chips.
-F10: It takes about 26 minutes in total.
-F11: Per serving: 2358 kcal, 42 g protein, 136 g fat (38 g saturated), 267 g carbohydrate (177 g sugar, 15 g fibre), 1214 mg sodium.
-F12: Compared with other recipes in the dataset, this recipe is very high in calories, very high in sodium, very high in sugar, very high in saturated fat, very high in protein, very high in fiber.
+F8: The recipe is called "Barb's Best Carrot Cake".
+F9: Ingredients (as listed): white sugar, brown sugar, eggs, vegetable oil, flour, baking powder, baking soda, cinnamon, salt, shredded carrots, chopped walnuts, raisins.
+F10: It takes about 75 minutes in total.
+F11: Per serving: 1106 kcal, 10 g protein, 58 g fat (18 g saturated), 142 g carbohydrate (112 g sugar, 4 g fibre), 978 mg sodium.
+F12: Compared with other recipes in the dataset, this recipe is very high in calories, very high in sodium, very high in sugar, very high in saturated fat, moderate in protein, high in fiber.
 F13: Nutrition-score levels (higher is healthier): 0 out of 4 (Nutri-Score style) and 0 out of 8 (FSA style).
-F14: The recipe features liked items: cookies-and-brownies, desserts, drop-cookies, chocolate.
+F14: The recipe features liked items: desserts.
 F15: Compared with the person's usual pattern (lower fiber), this recipe is not in line.
 F16: Compared with the person's usual pattern (higher saturated fat), this recipe is in line.
 
