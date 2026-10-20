@@ -1,0 +1,24 @@
+{
+ "normal_cases": 480,
+ "diagnostics": 15,
+ "pairs": 15,
+ "diagnostic_types": {
+  "invented_preference": 4,
+  "wrong_nutrition": 4,
+  "ignored_time_limit": 4,
+  "ignored_dietary_constraint": 3
+ },
+ "items_per_annotator": {
+  "A1": 510,
+  "A2": 510,
+  "A3": 510
+ },
+ "rate_all": true,
+ "pilot_items": 10,
+ "t3_equals_t4_cases": 83,
+ "normal_cases_by_source": {
+  "historical": 240,
+  "synthetic": 240
+ },
+ "seed": 2026
+}
