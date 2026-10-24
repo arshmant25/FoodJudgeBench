@@ -1,0 +1,11 @@
+﻿annotator_id,mode,case_id,item_type,ignored_constraint,factual_error,invented_personalization,unsupported_claim,overstated_certainty,clarity,profile_fit,goal_alignment,tradeoff,overall,pair_choice,pair_reason,comment,seconds,saved_at
+A2,pilot,C-A876B,case,no,no,no,no,no,4,4,na,3,3,,,,917,2026-10-22T15:33:01.458Z
+A2,pilot,C-C9CF9,case,no,no,no,no,no,4,5,1,4,5,,,,377,2026-10-22T15:33:01.459Z
+A2,pilot,C-16004,case,no,yes,yes,yes,na,2,2,na,2,2,,,,140,2026-10-22T15:33:01.459Z
+A2,pilot,C-1102C,case,no,yes,yes,yes,yes,4,1,na,1,2,,,,124,2026-10-22T15:33:01.459Z
+A2,pilot,C-A7134,case,no,no,yes,no,na,4,5,5,4,4,,,,89,2026-10-22T15:33:01.459Z
+A2,pilot,C-37157,case,no,no,no,no,no,4,3,na,3,3,,,,96,2026-10-22T15:33:01.459Z
+A2,pilot,C-A65BE,case,no,no,no,yes,no,4,4,1,4,4,,,,57,2026-10-22T15:33:01.459Z
+A2,pilot,C-1B7F4,case,no,no,no,yes,no,5,5,4,4,5,,,,61,2026-10-22T15:33:01.459Z
+A2,pilot,C-A762B,diagnostic,no,no,yes,no,yes,4,3,na,3,1,,,,49,2026-10-22T15:33:01.459Z
+A2,pilot,C-CF2B8,diagnostic,no,no,no,no,na,2,2,na,3,2,,,,156,2026-10-22T15:33:01.459Z
