@@ -1,0 +1,11 @@
+rater,n_ratings,yn_exact,yn_kappa,yn_f1,scale_within_1,scale_spearman,scale_qw_kappa,scale_mae
+HUMAN vs HUMAN (baseline),600,0.653,0.294,0.424,0.878,0.361,0.379,0.783
+gemma9b|checklist,300,0.633,0.241,0.342,0.824,0.504,0.312,0.787
+gemma9b|rubric_facts,300,0.633,0.255,0.286,0.877,0.394,0.321,0.776
+gemma9b|rubric_nofacts,300,0.54,0.091,0.181,0.757,0.152,0.087,1.079
+mistral7b|checklist,90,0.578,0.074,0.2,0.771,0.659,0.343,0.976
+mistral7b|rubric_facts,210,0.619,0.201,0.311,0.776,0.328,0.314,0.985
+mistral7b|rubric_nofacts,210,0.619,0.219,0.233,0.632,0.0,-0.011,1.218
+qwen14b|checklist,300,0.62,0.264,0.474,0.724,0.332,0.334,1.101
+qwen14b|rubric_facts,300,0.56,0.186,0.422,0.756,0.336,0.352,1.041
+qwen14b|rubric_nofacts,300,0.493,0.121,0.384,0.6,0.088,0.161,1.32

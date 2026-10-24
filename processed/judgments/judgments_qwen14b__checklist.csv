@@ -1,0 +1,11 @@
+annotator_id,mode,case_id,item_type,ignored_constraint,factual_error,invented_personalization,unsupported_claim,overstated_certainty,clarity,profile_fit,goal_alignment,tradeoff,overall,pair_choice,pair_reason,comment,seconds,saved_at,judge,model,setup,repeat,pair_order,parse_error
+qwen14b|checklist,judge,C-A876B,case,no,no,no,yes,na,4,5,na,2,3,,,,,2026-10-24T14:38:13.453884+00:00,qwen14b,qwen2.5:14b,checklist,0,,
+qwen14b|checklist,judge,C-C9CF9,case,na,no,no,yes,no,4,3,na,2,3,,,,,2026-10-24T14:39:27.668437+00:00,qwen14b,qwen2.5:14b,checklist,0,,
+qwen14b|checklist,judge,C-16004,case,na,no,yes,yes,no,4,2,na,3,2,,,,,2026-10-24T14:40:35.332364+00:00,qwen14b,qwen2.5:14b,checklist,0,,
+qwen14b|checklist,judge,C-1102C,case,no,no,yes,yes,na,4,3,na,2,3,,,,,2026-10-24T14:41:45.760833+00:00,qwen14b,qwen2.5:14b,checklist,0,,
+qwen14b|checklist,judge,C-A7134,case,no,yes,no,yes,na,4,3,2,3,3,,,,,2026-10-24T14:42:41.850145+00:00,qwen14b,qwen2.5:14b,checklist,0,,
+qwen14b|checklist,judge,C-37157,case,yes,no,yes,yes,na,4,2,na,3,2,,,,,2026-10-24T14:43:35.668088+00:00,qwen14b,qwen2.5:14b,checklist,0,,
+qwen14b|checklist,judge,C-A65BE,case,na,no,no,no,yes,4,5,na,3,4,,,,,2026-10-24T14:44:53.484805+00:00,qwen14b,qwen2.5:14b,checklist,0,,
+qwen14b|checklist,judge,C-1B7F4,case,no,no,no,no,na,5,5,4,3,4,,,,,2026-10-24T14:46:11.746009+00:00,qwen14b,qwen2.5:14b,checklist,0,,
+qwen14b|checklist,judge,C-A762B,diagnostic,na,no,yes,yes,yes,3,2,na,1,2,,,,,2026-10-24T14:47:33.968353+00:00,qwen14b,qwen2.5:14b,checklist,0,,
+qwen14b|checklist,judge,C-CF2B8,diagnostic,no,no,yes,yes,yes,3,2,na,1,2,,,,,2026-10-24T14:48:47.957104+00:00,qwen14b,qwen2.5:14b,checklist,0,,

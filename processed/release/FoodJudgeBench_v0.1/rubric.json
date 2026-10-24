@@ -1,0 +1,106 @@
+{
+ "rubric": [
+  {
+   "id": "ignored_constraint",
+   "section": "A. Problems (answer for every case)",
+   "type": "yn_na",
+   "label": "Ignores a stated requirement",
+   "q": "Does the explanation ignore or contradict something the profile STATES as a requirement (a diet or allergy, or a time limit)? Wording like \"fits your vegan diet\" for a recipe that is not vegan counts as YES.",
+   "na": "Profile states no diet/allergy/time requirement"
+  },
+  {
+   "id": "factual_error",
+   "section": "A. Problems (answer for every case)",
+   "type": "yn",
+   "label": "Wrong fact about the recipe",
+   "q": "Does it say anything about the RECIPE that is wrong - ingredients, time, nutrition numbers, or how it compares with other recipes? Check against the recipe and the checked facts."
+  },
+  {
+   "id": "invented_personalization",
+   "section": "A. Problems (answer for every case)",
+   "type": "yn",
+   "label": "Invents something about the person",
+   "q": "Does it claim something about the PERSON that the profile does not say (a preference, habit, family situation, goal)?"
+  },
+  {
+   "id": "unsupported_claim",
+   "section": "A. Problems (answer for every case)",
+   "type": "yn",
+   "label": "Other unsupported claim",
+   "q": "Apart from the two problems above, does it state something as fact that you cannot check from what you were given (for example health benefits, or taste described as certain fact)?"
+  },
+  {
+   "id": "overstated_certainty",
+   "section": "A. Problems (answer for every case)",
+   "type": "yn_na",
+   "label": "Treats a guess as certain",
+   "q": "The profile says whether information was STATED by the person or only INFERRED from past behaviour. Does the explanation present something inferred as if it were confirmed (\"you love...\", \"you always...\")?",
+   "na": "Profile is fully stated (nothing inferred)"
+  },
+  {
+   "id": "clarity",
+   "section": "B. Quality (1 = very poor, 5 = excellent)",
+   "type": "scale",
+   "label": "Clarity",
+   "q": "Is it easy to read and understand - clear, well organised, not confusing or repetitive?"
+  },
+  {
+   "id": "profile_fit",
+   "section": "B. Quality (1 = very poor, 5 = excellent)",
+   "type": "scale",
+   "label": "Fit with the profile",
+   "q": "Does it use the profile information that matters for THIS person, correctly and proportionately? (Judge suitability for the stated profile, not whether YOU like the dish.)"
+  },
+  {
+   "id": "goal_alignment",
+   "section": "B. Quality (1 = very poor, 5 = excellent)",
+   "type": "scale_na",
+   "label": "Goal alignment",
+   "q": "If the profile has a health goal: does the explanation address it correctly, including saying so honestly when the recipe does NOT help the goal?",
+   "na": "Profile states no health goal"
+  },
+  {
+   "id": "tradeoff",
+   "section": "B. Quality (1 = very poor, 5 = excellent)",
+   "type": "scale_na",
+   "label": "Trade-offs",
+   "q": "Does it honestly tell the person about downsides or mismatches (for example high sodium, longer than usual, an unmet goal)? 5 = clear and honest; 1 = hides or ignores real downsides.",
+   "na": "This recipe has no downside for this person"
+  },
+  {
+   "id": "overall",
+   "section": "B. Quality (1 = very poor, 5 = excellent)",
+   "type": "scale",
+   "label": "Overall suitability",
+   "q": "Overall, how suitable and trustworthy is this explanation for THIS person and THIS recipe?"
+  }
+ ],
+ "pair_reasons": [
+  "more accurate",
+  "clearer",
+  "fits the profile better",
+  "communicates trade-offs better",
+  "other"
+ ],
+ "columns": [
+  "annotator_id",
+  "mode",
+  "case_id",
+  "item_type",
+  "ignored_constraint",
+  "factual_error",
+  "invented_personalization",
+  "unsupported_claim",
+  "overstated_certainty",
+  "clarity",
+  "profile_fit",
+  "goal_alignment",
+  "tradeoff",
+  "overall",
+  "pair_choice",
+  "pair_reason",
+  "comment",
+  "seconds",
+  "saved_at"
+ ]
+}

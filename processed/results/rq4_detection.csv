@@ -1,0 +1,13 @@
+rater,error,question,n_items,detected,yes_rate_on_normal_cases
+HUMAN A1,invented_preference,invented_personalization,2,1.0,0.5
+HUMAN A2,invented_preference,invented_personalization,2,0.5,0.375
+HUMAN A3,invented_preference,invented_personalization,2,1.0,0.375
+gemma9b|checklist,invented_preference,invented_personalization,2,1.0,0.25
+gemma9b|rubric_facts,invented_preference,invented_personalization,2,0.5,0.25
+gemma9b|rubric_nofacts,invented_preference,invented_personalization,2,1.0,0.125
+mistral7b|checklist,invented_preference,invented_personalization,1,0.0,0.0
+mistral7b|rubric_facts,invented_preference,invented_personalization,1,0.0,0.333
+mistral7b|rubric_nofacts,invented_preference,invented_personalization,2,0.0,0.2
+qwen14b|checklist,invented_preference,invented_personalization,2,1.0,0.375
+qwen14b|rubric_facts,invented_preference,invented_personalization,2,1.0,0.5
+qwen14b|rubric_nofacts,invented_preference,invented_personalization,2,1.0,0.375

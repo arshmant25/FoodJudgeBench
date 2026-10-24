@@ -1,0 +1,11 @@
+case_id,item_type,n_raters,ignored_constraint,factual_error,invented_personalization,unsupported_claim,overstated_certainty,clarity,profile_fit,goal_alignment,tradeoff,overall
+C-1102C,case,3,no,yes,yes,yes,no,4.0,1.0,na,1.0,2.0
+C-16004,case,3,na,yes,yes,yes,tie,3.0,2.0,na,1.0,2.0
+C-1B7F4,case,3,no,no,no,no,na,5.0,5.0,5.0,5.0,5.0
+C-37157,case,3,tie,no,yes,no,no,4.0,2.0,na,2.5,2.0
+C-A65BE,case,3,na,no,no,no,yes,4.0,4.0,na,4.0,4.0
+C-A7134,case,3,no,no,no,no,na,4.0,5.0,5.0,5.0,4.0
+C-A762B,diagnostic,3,na,no,yes,no,yes,4.0,2.0,na,3.5,1.0
+C-A876B,case,3,no,no,no,no,na,5.0,5.0,na,1.0,3.0
+C-C9CF9,case,3,no,no,no,no,no,5.0,5.0,na,4.0,4.0
+C-CF2B8,diagnostic,3,no,yes,yes,yes,na,4.0,1.0,na,2.0,2.0

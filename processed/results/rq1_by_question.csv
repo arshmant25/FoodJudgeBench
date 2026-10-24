@@ -1,0 +1,101 @@
+question,n,exact,na_agree,n_numeric,within_1,mae,bias,spearman,qw_kappa,kappa,precision,recall,f1,human_yes,other_yes,rater
+ignored_constraint,60.0,0.567,,,,,,,,0.067,0.0,0.0,0.0,0.033,0.033,HUMAN vs HUMAN (baseline)
+factual_error,60.0,0.733,,,,,,,,0.365,0.556,0.556,0.556,0.3,0.3,HUMAN vs HUMAN (baseline)
+invented_personalization,60.0,0.733,,,,,,,,0.467,0.733,0.733,0.733,0.5,0.5,HUMAN vs HUMAN (baseline)
+unsupported_claim,60.0,0.667,,,,,,,,0.25,0.5,0.5,0.5,0.333,0.333,HUMAN vs HUMAN (baseline)
+overstated_certainty,60.0,0.567,,,,,,,,0.321,0.333,0.333,0.333,0.2,0.2,HUMAN vs HUMAN (baseline)
+clarity,60.0,0.333,1.0,60.0,0.867,0.8,0.0,0.261,0.255,,,,,,,HUMAN vs HUMAN (baseline)
+profile_fit,60.0,0.233,1.0,60.0,0.8,1.133,0.0,0.467,0.557,,,,,,,HUMAN vs HUMAN (baseline)
+goal_alignment,60.0,0.8,0.867,12.0,1.0,0.333,0.0,-0.2,-0.2,,,,,,,HUMAN vs HUMAN (baseline)
+tradeoff,60.0,0.3,0.8,48.0,0.792,0.917,0.0,0.679,0.677,,,,,,,HUMAN vs HUMAN (baseline)
+overall,60.0,0.433,1.0,60.0,0.933,0.733,0.0,0.598,0.606,,,,,,,HUMAN vs HUMAN (baseline)
+ignored_constraint,30.0,0.6,,,,,,,,0.167,,0.0,0.0,0.033,0.0,gemma9b|checklist
+factual_error,30.0,0.7,,,,,,,,0.0,,0.0,0.0,0.3,0.0,gemma9b|checklist
+invented_personalization,30.0,0.767,,,,,,,,0.533,0.833,0.667,0.741,0.5,0.4,gemma9b|checklist
+unsupported_claim,30.0,0.6,,,,,,,,0.25,0.444,0.8,0.571,0.333,0.6,gemma9b|checklist
+overstated_certainty,30.0,0.5,,,,,,,,0.254,0.333,0.5,0.4,0.2,0.3,gemma9b|checklist
+clarity,30.0,0.467,1.0,30.0,0.933,0.6,0.067,0.204,0.167,,,,,,,gemma9b|checklist
+profile_fit,30.0,0.367,1.0,30.0,0.833,0.8,0.133,0.743,0.697,,,,,,,gemma9b|checklist
+goal_alignment,30.0,0.9,0.933,6.0,1.0,0.167,0.167,,0.0,,,,,,,gemma9b|checklist
+tradeoff,30.0,0.167,0.9,27.0,0.556,1.333,0.519,0.346,0.243,,,,,,,gemma9b|checklist
+overall,30.0,0.167,1.0,30.0,0.8,1.033,0.7,0.724,0.456,,,,,,,gemma9b|checklist
+ignored_constraint,30.0,0.4,,,,,,,,0.095,,0.0,0.0,0.033,0.0,gemma9b|rubric_facts
+factual_error,30.0,0.7,,,,,,,,0.0,,0.0,0.0,0.3,0.0,gemma9b|rubric_facts
+invented_personalization,30.0,0.667,,,,,,,,0.333,0.778,0.467,0.583,0.5,0.3,gemma9b|rubric_facts
+unsupported_claim,30.0,0.8,,,,,,,,0.5,0.833,0.5,0.625,0.333,0.2,gemma9b|rubric_facts
+overstated_certainty,30.0,0.6,,,,,,,,0.344,0.333,0.167,0.222,0.2,0.1,gemma9b|rubric_facts
+clarity,30.0,0.567,1.0,30.0,0.933,0.5,0.167,0.438,0.336,,,,,,,gemma9b|rubric_facts
+profile_fit,30.0,0.233,1.0,30.0,0.733,1.1,-0.167,0.5,0.41,,,,,,,gemma9b|rubric_facts
+goal_alignment,30.0,0.8,0.933,6.0,1.0,0.667,-0.333,-0.447,-0.333,,,,,,,gemma9b|rubric_facts
+tradeoff,30.0,0.333,0.9,27.0,0.852,0.778,0.111,0.82,0.674,,,,,,,gemma9b|rubric_facts
+overall,30.0,0.3,1.0,30.0,0.867,0.833,0.3,0.658,0.516,,,,,,,gemma9b|rubric_facts
+ignored_constraint,30.0,0.4,,,,,,,,0.095,,0.0,0.0,0.033,0.0,gemma9b|rubric_nofacts
+factual_error,30.0,0.7,,,,,,,,0.0,,0.0,0.0,0.3,0.0,gemma9b|rubric_nofacts
+invented_personalization,30.0,0.667,,,,,,,,0.333,0.778,0.467,0.583,0.5,0.3,gemma9b|rubric_nofacts
+unsupported_claim,30.0,0.433,,,,,,,,-0.133,0.267,0.4,0.32,0.333,0.5,gemma9b|rubric_nofacts
+overstated_certainty,30.0,0.5,,,,,,,,0.157,,0.0,0.0,0.2,0.0,gemma9b|rubric_nofacts
+clarity,30.0,0.467,1.0,30.0,0.933,0.6,0.067,0.204,0.167,,,,,,,gemma9b|rubric_nofacts
+profile_fit,30.0,0.133,1.0,30.0,0.667,1.267,-0.267,0.407,0.293,,,,,,,gemma9b|rubric_nofacts
+goal_alignment,30.0,0.767,0.933,6.0,1.0,0.833,-0.833,,0.0,,,,,,,gemma9b|rubric_nofacts
+tradeoff,30.0,0.167,0.9,27.0,0.519,1.593,0.556,-0.288,-0.249,,,,,,,gemma9b|rubric_nofacts
+overall,30.0,0.233,1.0,30.0,0.667,1.1,0.3,0.286,0.223,,,,,,,gemma9b|rubric_nofacts
+ignored_constraint,9.0,0.556,,,,,,,,-0.2,,,,0.0,0.0,mistral7b|checklist
+factual_error,9.0,0.556,,,,,,,,0.0,,0.0,0.0,0.444,0.0,mistral7b|checklist
+invented_personalization,9.0,0.444,,,,,,,,0.0,,0.0,0.0,0.556,0.0,mistral7b|checklist
+unsupported_claim,9.0,0.778,,,,,,,,0.571,0.667,1.0,0.8,0.444,0.667,mistral7b|checklist
+overstated_certainty,9.0,0.556,,,,,,,,0.0,,0.0,0.0,0.111,0.0,mistral7b|checklist
+clarity,9.0,0.667,1.0,9.0,0.889,0.444,0.444,0.704,0.437,,,,,,,mistral7b|checklist
+profile_fit,9.0,0.222,1.0,9.0,0.556,1.222,1.222,0.866,0.584,,,,,,,mistral7b|checklist
+goal_alignment,9.0,1.0,1.0,,,,,,,,,,,,,mistral7b|checklist
+tradeoff,9.0,0.111,0.889,8.0,0.75,1.125,0.875,0.149,0.071,,,,,,,mistral7b|checklist
+overall,9.0,0.0,1.0,9.0,0.889,1.111,1.111,0.919,0.28,,,,,,,mistral7b|checklist
+ignored_constraint,21.0,0.429,,,,,,,,0.0,,0.0,0.0,0.048,0.0,mistral7b|rubric_facts
+factual_error,21.0,0.714,,,,,,,,0.0,,0.0,0.0,0.286,0.0,mistral7b|rubric_facts
+invented_personalization,21.0,0.619,,,,,,,,0.282,0.833,0.417,0.556,0.571,0.286,mistral7b|rubric_facts
+unsupported_claim,21.0,0.81,,,,,,,,0.5,1.0,0.429,0.6,0.333,0.143,mistral7b|rubric_facts
+overstated_certainty,21.0,0.524,,,,,,,,0.222,0.333,0.5,0.4,0.286,0.429,mistral7b|rubric_facts
+clarity,21.0,0.524,1.0,21.0,1.0,0.476,-0.095,0.509,0.5,,,,,,,mistral7b|rubric_facts
+profile_fit,21.0,0.238,1.0,21.0,0.714,1.143,0.0,0.331,0.44,,,,,,,mistral7b|rubric_facts
+goal_alignment,21.0,0.905,0.905,,,,,,,,,,,,,mistral7b|rubric_facts
+tradeoff,21.0,0.143,0.905,19.0,0.579,1.368,0.316,0.136,0.078,,,,,,,mistral7b|rubric_facts
+overall,21.0,0.238,1.0,21.0,0.81,0.952,0.381,0.336,0.24,,,,,,,mistral7b|rubric_facts
+ignored_constraint,21.0,0.524,,,,,,,,0.195,,0.0,0.0,0.048,0.0,mistral7b|rubric_nofacts
+factual_error,21.0,0.714,,,,,,,,0.0,,0.0,0.0,0.286,0.0,mistral7b|rubric_nofacts
+invented_personalization,21.0,0.524,,,,,,,,0.079,0.667,0.182,0.286,0.524,0.143,mistral7b|rubric_nofacts
+unsupported_claim,21.0,0.667,,,,,,,,0.364,0.5,0.857,0.632,0.333,0.571,mistral7b|rubric_nofacts
+overstated_certainty,21.0,0.667,,,,,,,,0.456,0.333,0.2,0.25,0.238,0.143,mistral7b|rubric_nofacts
+clarity,21.0,0.524,1.0,21.0,0.905,0.571,0.095,0.304,0.188,,,,,,,mistral7b|rubric_nofacts
+profile_fit,21.0,0.143,1.0,21.0,0.524,1.571,0.714,-0.023,-0.067,,,,,,,mistral7b|rubric_nofacts
+goal_alignment,21.0,0.905,0.905,,,,,,,,,,,,,mistral7b|rubric_nofacts
+tradeoff,21.0,0.143,0.667,13.0,0.385,1.538,-0.769,-0.559,-0.25,,,,,,,mistral7b|rubric_nofacts
+overall,21.0,0.095,1.0,21.0,0.714,1.19,0.714,0.279,0.085,,,,,,,mistral7b|rubric_nofacts
+ignored_constraint,30.0,0.733,,,,,,,,0.509,0.333,1.0,0.5,0.033,0.1,qwen14b|checklist
+factual_error,30.0,0.6,,,,,,,,-0.176,0.0,0.0,0.0,0.3,0.1,qwen14b|checklist
+invented_personalization,30.0,0.867,,,,,,,,0.733,0.867,0.867,0.867,0.5,0.5,qwen14b|checklist
+unsupported_claim,30.0,0.4,,,,,,,,0.0,0.333,0.8,0.471,0.333,0.8,qwen14b|checklist
+overstated_certainty,30.0,0.5,,,,,,,,0.254,0.444,0.667,0.533,0.2,0.3,qwen14b|checklist
+clarity,30.0,0.433,1.0,30.0,0.933,0.633,-0.233,0.339,0.277,,,,,,,qwen14b|checklist
+profile_fit,30.0,0.333,1.0,30.0,0.733,0.967,0.233,0.63,0.615,,,,,,,qwen14b|checklist
+goal_alignment,30.0,0.767,0.933,6.0,0.5,1.833,-1.833,-0.447,-0.074,,,,,,,qwen14b|checklist
+tradeoff,30.0,0.067,0.9,27.0,0.556,1.407,-0.519,0.419,0.235,,,,,,,qwen14b|checklist
+overall,30.0,0.433,1.0,30.0,0.9,0.667,0.0,0.72,0.615,,,,,,,qwen14b|checklist
+ignored_constraint,30.0,0.6,,,,,,,,0.077,0.0,0.0,0.0,0.033,0.1,qwen14b|rubric_facts
+factual_error,30.0,0.733,,,,,,,,0.365,0.556,0.556,0.556,0.3,0.3,qwen14b|rubric_facts
+invented_personalization,30.0,0.633,,,,,,,,0.267,0.611,0.733,0.667,0.5,0.6,qwen14b|rubric_facts
+unsupported_claim,30.0,0.367,,,,,,,,-0.0,0.333,0.9,0.486,0.333,0.9,qwen14b|rubric_facts
+overstated_certainty,30.0,0.467,,,,,,,,0.22,0.333,0.5,0.4,0.2,0.3,qwen14b|rubric_facts
+clarity,30.0,0.4,1.0,30.0,0.933,0.667,-0.333,0.261,0.189,,,,,,,qwen14b|rubric_facts
+profile_fit,30.0,0.2,1.0,30.0,0.667,1.2,-0.267,0.447,0.425,,,,,,,qwen14b|rubric_facts
+goal_alignment,30.0,0.8,0.933,6.0,0.5,1.667,-1.333,-0.447,-0.12,,,,,,,qwen14b|rubric_facts
+tradeoff,30.0,0.2,0.9,27.0,0.778,1.037,-0.148,0.643,0.616,,,,,,,qwen14b|rubric_facts
+overall,30.0,0.5,1.0,30.0,0.9,0.633,-0.5,0.777,0.649,,,,,,,qwen14b|rubric_facts
+ignored_constraint,30.0,0.467,,,,,,,,0.192,0.083,1.0,0.154,0.033,0.4,qwen14b|rubric_nofacts
+factual_error,30.0,0.3,,,,,,,,-0.522,0.0,0.0,0.0,0.3,0.4,qwen14b|rubric_nofacts
+invented_personalization,30.0,0.733,,,,,,,,0.467,0.733,0.733,0.733,0.5,0.5,qwen14b|rubric_nofacts
+unsupported_claim,30.0,0.533,,,,,,,,0.222,0.417,1.0,0.588,0.333,0.8,qwen14b|rubric_nofacts
+overstated_certainty,30.0,0.433,,,,,,,,0.244,0.286,1.0,0.444,0.2,0.7,qwen14b|rubric_nofacts
+clarity,30.0,0.3,1.0,30.0,0.8,0.9,-0.433,-0.21,-0.168,,,,,,,qwen14b|rubric_nofacts
+profile_fit,30.0,0.2,1.0,30.0,0.7,1.233,-0.367,0.385,0.344,,,,,,,qwen14b|rubric_nofacts
+goal_alignment,30.0,0.733,0.933,6.0,0.167,2.333,-2.333,-0.447,-0.029,,,,,,,qwen14b|rubric_nofacts
+tradeoff,30.0,0.367,0.9,27.0,0.667,1.0,0.037,0.573,0.568,,,,,,,qwen14b|rubric_nofacts
+overall,30.0,0.3,1.0,30.0,0.667,1.133,-0.6,0.141,0.088,,,,,,,qwen14b|rubric_nofacts

@@ -1,0 +1,11 @@
+annotator_id,mode,case_id,item_type,ignored_constraint,factual_error,invented_personalization,unsupported_claim,overstated_certainty,clarity,profile_fit,goal_alignment,tradeoff,overall,pair_choice,pair_reason,comment,seconds,saved_at,judge,model,setup,repeat,pair_order,parse_error
+gemma9b|checklist,judge,C-A876B,case,na,no,no,no,na,5,4,na,3,4,,,,,2026-10-24T14:51:52.550225+00:00,gemma9b,gemma2:9b,checklist,0,,
+gemma9b|checklist,judge,C-C9CF9,case,na,no,no,yes,na,4,3,na,3,3,,,,,2026-10-24T14:52:15.394065+00:00,gemma9b,gemma2:9b,checklist,0,,
+gemma9b|checklist,judge,C-16004,case,no,no,no,yes,no,4,2,na,3,3,,,,,2026-10-24T14:52:39.205891+00:00,gemma9b,gemma2:9b,checklist,0,,
+gemma9b|checklist,judge,C-1102C,case,no,no,yes,yes,yes,4,2,na,3,3,,,,,2026-10-24T14:53:05.706002+00:00,gemma9b,gemma2:9b,checklist,0,,
+gemma9b|checklist,judge,C-A7134,case,no,no,no,no,na,5,4,5,5,5,,,,,2026-10-24T14:53:29.227825+00:00,gemma9b,gemma2:9b,checklist,0,,
+gemma9b|checklist,judge,C-37157,case,no,no,yes,yes,yes,4,2,na,3,3,,,,,2026-10-24T14:53:47.487802+00:00,gemma9b,gemma2:9b,checklist,0,,
+gemma9b|checklist,judge,C-A65BE,case,na,no,no,no,no,4,4,na,3,4,,,,,2026-10-24T14:54:09.449651+00:00,gemma9b,gemma2:9b,checklist,0,,
+gemma9b|checklist,judge,C-1B7F4,case,no,no,no,no,na,4,5,5,4,4,,,,,2026-10-24T14:54:33.653380+00:00,gemma9b,gemma2:9b,checklist,0,,
+gemma9b|checklist,judge,C-A762B,diagnostic,na,no,yes,yes,yes,4,3,na,2,3,,,,,2026-10-24T14:54:53.328144+00:00,gemma9b,gemma2:9b,checklist,0,,
+gemma9b|checklist,judge,C-CF2B8,diagnostic,no,no,yes,yes,na,4,2,na,5,3,,,,,2026-10-24T14:55:17.962573+00:00,gemma9b,gemma2:9b,checklist,0,,
