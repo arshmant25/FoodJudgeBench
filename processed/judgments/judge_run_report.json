@@ -12,6 +12,10 @@
     "new_rows": 10,
     "unparseable": 0
    },
+   "rubric_nofacts": {
+    "new_rows": 10,
+    "unparseable": 0
+   },
    "checklist": {
     "new_rows": 10,
     "unparseable": 0
@@ -22,6 +26,10 @@
     "new_rows": 10,
     "unparseable": 0
    },
+   "rubric_nofacts": {
+    "new_rows": 10,
+    "unparseable": 0
+   },
    "checklist": {
     "new_rows": 10,
     "unparseable": 0
@@ -29,6 +37,10 @@
   },
   "phi4": {
    "rubric_facts": {
+    "new_rows": 10,
+    "unparseable": 0
+   },
+   "rubric_nofacts": {
     "new_rows": 10,
     "unparseable": 0
    },

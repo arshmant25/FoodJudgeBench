@@ -4,7 +4,10 @@ HUMAN A2,invented_preference,invented_personalization,2,0.5,0.375
 HUMAN A3,invented_preference,invented_personalization,2,1.0,0.375
 gemma9b|checklist,invented_preference,invented_personalization,2,1.0,0.25
 gemma9b|rubric_facts,invented_preference,invented_personalization,2,0.5,0.125
+gemma9b|rubric_nofacts,invented_preference,invented_personalization,2,1.0,0.125
 phi4|checklist,invented_preference,invented_personalization,2,1.0,0.25
 phi4|rubric_facts,invented_preference,invented_personalization,2,1.0,0.25
+phi4|rubric_nofacts,invented_preference,invented_personalization,2,1.0,0.125
 qwen14b|checklist,invented_preference,invented_personalization,2,1.0,0.375
 qwen14b|rubric_facts,invented_preference,invented_personalization,2,1.0,0.25
+qwen14b|rubric_nofacts,invented_preference,invented_personalization,2,1.0,0.25

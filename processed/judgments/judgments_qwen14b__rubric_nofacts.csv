@@ -1,0 +1,11 @@
+annotator_id,mode,case_id,item_type,ignored_constraint,factual_error,invented_personalization,unsupported_claim,overstated_certainty,clarity,profile_fit,goal_alignment,tradeoff,overall,pair_choice,pair_reason,comment,seconds,saved_at,judge,model,setup,repeat,pair_order,parse_error,coerced
+qwen14b|rubric_nofacts,judge,C-A876B,case,no,no,no,no,na,5,5,na,5,5,,,,,2026-10-25T14:52:36.197437+00:00,qwen14b,qwen2.5:14b,rubric_nofacts,0,,,
+qwen14b|rubric_nofacts,judge,C-C9CF9,case,no,no,no,yes,yes,4,2,na,3,2,,,,,2026-10-25T14:52:52.280964+00:00,qwen14b,qwen2.5:14b,rubric_nofacts,0,,,
+qwen14b|rubric_nofacts,judge,C-16004,case,na,no,yes,yes,yes,4,3,na,3,3,,,,,2026-10-25T14:53:08.127062+00:00,qwen14b,qwen2.5:14b,rubric_nofacts,0,,,
+qwen14b|rubric_nofacts,judge,C-1102C,case,yes,no,no,yes,yes,4,2,na,2,2,,,,,2026-10-25T14:53:24.773473+00:00,qwen14b,qwen2.5:14b,rubric_nofacts,0,,,
+qwen14b|rubric_nofacts,judge,C-A7134,case,no,no,no,no,na,4,3,3,4,3,,,,,2026-10-25T14:53:40.652684+00:00,qwen14b,qwen2.5:14b,rubric_nofacts,0,,,
+qwen14b|rubric_nofacts,judge,C-37157,case,yes,no,yes,yes,yes,4,2,na,2,2,,,,,2026-10-25T14:53:56.752255+00:00,qwen14b,qwen2.5:14b,rubric_nofacts,0,,,
+qwen14b|rubric_nofacts,judge,C-A65BE,case,na,no,no,yes,yes,4,3,na,4,3,,,,,2026-10-25T14:54:12.926010+00:00,qwen14b,qwen2.5:14b,rubric_nofacts,0,,,
+qwen14b|rubric_nofacts,judge,C-1B7F4,case,yes,yes,no,no,na,4,2,2,4,2,,,,,2026-10-25T14:54:29.069472+00:00,qwen14b,qwen2.5:14b,rubric_nofacts,0,,,
+qwen14b|rubric_nofacts,judge,C-A762B,diagnostic,no,no,yes,yes,yes,4,2,na,3,2,,,,,2026-10-25T14:54:45.127510+00:00,qwen14b,qwen2.5:14b,rubric_nofacts,0,,,
+qwen14b|rubric_nofacts,judge,C-CF2B8,diagnostic,yes,yes,yes,yes,yes,3,1,na,na,1,,,,,2026-10-25T14:55:00.726865+00:00,qwen14b,qwen2.5:14b,rubric_nofacts,0,,,

@@ -1,0 +1,11 @@
+annotator_id,mode,case_id,item_type,ignored_constraint,factual_error,invented_personalization,unsupported_claim,overstated_certainty,clarity,profile_fit,goal_alignment,tradeoff,overall,pair_choice,pair_reason,comment,seconds,saved_at,judge,model,setup,repeat,pair_order,parse_error,coerced
+phi4|rubric_nofacts,judge,C-A876B,case,no,no,no,no,na,5,5,na,4,5,,,,,2026-10-25T15:17:08.334642+00:00,phi4,phi4:latest,rubric_nofacts,0,,,
+phi4|rubric_nofacts,judge,C-C9CF9,case,no,no,no,no,no,4,3,na,4,3,,,,,2026-10-25T15:17:26.774615+00:00,phi4,phi4:latest,rubric_nofacts,0,,,
+phi4|rubric_nofacts,judge,C-16004,case,na,no,no,yes,yes,4,3,na,3,3,,,,,2026-10-25T15:17:45.142528+00:00,phi4,phi4:latest,rubric_nofacts,0,,,
+phi4|rubric_nofacts,judge,C-1102C,case,no,no,no,yes,yes,4,2,na,3,2,,,,,2026-10-25T15:18:03.497865+00:00,phi4,phi4:latest,rubric_nofacts,0,,,
+phi4|rubric_nofacts,judge,C-A7134,case,no,no,no,no,na,4,3,4,4,3,,,,,2026-10-25T15:18:21.725299+00:00,phi4,phi4:latest,rubric_nofacts,0,,,
+phi4|rubric_nofacts,judge,C-37157,case,no,yes,yes,yes,yes,4,3,na,3,3,,,,,2026-10-25T15:18:40.048658+00:00,phi4,phi4:latest,rubric_nofacts,0,,,
+phi4|rubric_nofacts,judge,C-A65BE,case,no,no,no,no,no,4,3,na,4,3,,,,,2026-10-25T15:18:58.549423+00:00,phi4,phi4:latest,rubric_nofacts,0,,,
+phi4|rubric_nofacts,judge,C-1B7F4,case,yes,yes,no,yes,na,4,2,2,4,2,,,,,2026-10-25T15:19:16.538662+00:00,phi4,phi4:latest,rubric_nofacts,0,,,
+phi4|rubric_nofacts,judge,C-A762B,diagnostic,na,no,yes,yes,yes,4,2,na,3,2,,,,,2026-10-25T15:19:34.817988+00:00,phi4,phi4:latest,rubric_nofacts,0,,,
+phi4|rubric_nofacts,judge,C-CF2B8,diagnostic,no,no,yes,yes,yes,4,3,na,4,3,,,,,2026-10-25T15:19:52.820596+00:00,phi4,phi4:latest,rubric_nofacts,0,,,

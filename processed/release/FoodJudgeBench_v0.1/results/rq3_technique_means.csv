@@ -11,7 +11,7 @@ HUMAN A3,direct_llm,2,1.5,0.625
 HUMAN A3,grounded_check_llm,2,4.5,0.0
 HUMAN A3,grounded_llm,2,3.5,0.25
 HUMAN A3,template,2,3.5,0.0
-gemma9b|checklist,direct_llm,2,3.0,0.375
+gemma9b|checklist,direct_llm,2,2.5,0.5
 gemma9b|checklist,grounded_check_llm,2,4.5,0.0
 gemma9b|checklist,grounded_llm,2,3.0,0.25
 gemma9b|checklist,template,2,3.5,0.125
@@ -19,6 +19,10 @@ gemma9b|rubric_facts,direct_llm,2,3.0,0.0
 gemma9b|rubric_facts,grounded_check_llm,2,3.5,0.0
 gemma9b|rubric_facts,grounded_llm,2,3.5,0.125
 gemma9b|rubric_facts,template,2,3.5,0.0
+gemma9b|rubric_nofacts,direct_llm,2,3.5,0.0
+gemma9b|rubric_nofacts,grounded_check_llm,2,3.0,0.0
+gemma9b|rubric_nofacts,grounded_llm,2,3.0,0.25
+gemma9b|rubric_nofacts,template,2,3.5,0.0
 phi4|checklist,direct_llm,2,2.0,0.5
 phi4|checklist,grounded_check_llm,2,3.5,0.125
 phi4|checklist,grounded_llm,2,3.5,0.125
@@ -27,11 +31,19 @@ phi4|rubric_facts,direct_llm,2,2.5,0.5
 phi4|rubric_facts,grounded_check_llm,2,3.5,0.125
 phi4|rubric_facts,grounded_llm,2,3.5,0.125
 phi4|rubric_facts,template,2,4.0,0.0
+phi4|rubric_nofacts,direct_llm,2,2.5,0.25
+phi4|rubric_nofacts,grounded_check_llm,2,2.5,0.375
+phi4|rubric_nofacts,grounded_llm,2,3.0,0.375
+phi4|rubric_nofacts,template,2,4.0,0.0
 qwen14b|checklist,direct_llm,2,1.5,0.75
-qwen14b|checklist,grounded_check_llm,2,4.5,0.0
+qwen14b|checklist,grounded_check_llm,2,5.0,0.0
 qwen14b|checklist,grounded_llm,2,3.5,0.375
 qwen14b|checklist,template,2,4.5,0.0
 qwen14b|rubric_facts,direct_llm,2,2.0,0.5
 qwen14b|rubric_facts,grounded_check_llm,2,4.5,0.0
 qwen14b|rubric_facts,grounded_llm,2,3.0,0.25
 qwen14b|rubric_facts,template,2,3.0,0.25
+qwen14b|rubric_nofacts,direct_llm,2,2.5,0.625
+qwen14b|rubric_nofacts,grounded_check_llm,2,2.5,0.5
+qwen14b|rubric_nofacts,grounded_llm,2,2.5,0.375
+qwen14b|rubric_nofacts,template,2,3.5,0.125

@@ -1,15 +1,21 @@
 source,rater,n_ratings,yn_exact,yn_kappa,yn_f1,scale_within_1,scale_spearman,scale_qw_kappa,scale_mae
 historical,HUMAN vs HUMAN,360,0.6,0.226,0.481,0.825,0.24,0.305,1.02
-historical,gemma9b|checklist,180,0.544,0.047,0.295,0.729,0.262,0.181,0.998
+historical,gemma9b|checklist,180,0.511,0.061,0.35,0.726,0.28,0.188,0.962
 historical,gemma9b|rubric_facts,180,0.556,0.0,0.053,0.771,0.307,0.104,0.97
-historical,phi4|checklist,180,0.544,0.13,0.351,0.766,0.529,0.368,0.852
+historical,gemma9b|rubric_nofacts,180,0.544,-0.03,0.142,0.653,-0.179,-0.072,1.226
+historical,phi4|checklist,180,0.544,0.13,0.351,0.797,0.518,0.401,0.806
 historical,phi4|rubric_facts,180,0.656,0.316,0.493,0.83,0.49,0.432,0.785
-historical,qwen14b|checklist,180,0.633,0.254,0.478,0.887,0.442,0.496,0.8
+historical,phi4|rubric_nofacts,180,0.556,0.1,0.371,0.767,0.454,0.197,0.905
+historical,qwen14b|checklist,180,0.622,0.214,0.447,0.859,0.47,0.503,0.885
 historical,qwen14b|rubric_facts,180,0.567,0.187,0.476,0.83,0.472,0.427,0.856
+historical,qwen14b|rubric_nofacts,180,0.511,0.133,0.422,0.842,0.329,0.173,0.873
 synthetic,HUMAN vs HUMAN,240,0.733,0.111,0.333,0.907,0.444,0.498,0.633
 synthetic,gemma9b|checklist,120,0.8,0.37,0.444,0.912,0.479,0.409,0.683
 synthetic,gemma9b|rubric_facts,120,0.65,0.37,0.444,0.895,0.507,0.399,0.698
+synthetic,gemma9b|rubric_nofacts,120,0.65,0.37,0.444,0.809,0.253,0.201,0.973
 synthetic,phi4|checklist,120,0.783,0.407,0.556,0.845,0.386,0.289,0.883
 synthetic,phi4|rubric_facts,120,0.75,0.241,0.278,0.829,0.515,0.326,0.882
+synthetic,phi4|rubric_nofacts,120,0.717,0.292,0.333,0.579,0.035,-0.002,1.439
 synthetic,qwen14b|checklist,120,0.717,0.37,0.333,0.964,0.814,0.63,0.479
 synthetic,qwen14b|rubric_facts,120,0.7,0.181,0.222,0.814,0.519,0.57,0.727
+synthetic,qwen14b|rubric_nofacts,120,0.7,0.403,0.4,0.533,0.201,0.157,1.494
