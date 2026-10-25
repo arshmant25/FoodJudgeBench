@@ -37,6 +37,16 @@ Read parts 1-3 first, then the explanation, then answer the questions.
 
 Use the whole 1-5 range. 3 means "acceptable, with noticeable weaknesses".
 
+
+## 3b. When to answer "Not applicable" (check the profile, not your opinion)
+Whether a question applies is a fact you can read in the profile:
+| Question | "Not applicable" ONLY when... |
+|---|---|
+| Ignores a stated requirement | the profile states **no** diet, no allergy **and** no time limit. If any of those is stated, answer Yes or No. |
+| Goal alignment | the profile states **no** health goal ("Health goal: unknown") |
+| Treats a guess as certain | the profile is fully **stated** (a designed profile that says "stated"). Profiles built from past reviews are always *inferred*, so answer Yes or No there. |
+| Trade-offs | the recipe has genuinely no downside for this person (rare) |
+
 ## 4. Rules that keep the study valid
 - **Work alone.** Do not discuss cases with the other annotators until the project lead says the round is finished. We measure how much independent people agree.
 - **Do not try to guess who or what wrote a text**, and do not let a guess influence a rating.
