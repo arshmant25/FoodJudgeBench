@@ -1,0 +1,11 @@
+case_id,human_flags_same,human_within1,judge_within1_mean,judge_flag_match_mean,human_overall_mean,human_overall_spread,diag
+C-A876B,0.87,0.83,0.72,0.89,3.0,0,False
+C-C9CF9,0.87,0.5,0.81,0.78,3.33,4,False
+C-16004,0.67,0.92,0.64,0.56,1.67,1,False
+C-1102C,0.47,1.0,0.67,0.42,2.0,0,False
+C-A7134,0.87,1.0,0.76,0.96,4.33,1,False
+C-37157,0.53,0.9,0.89,0.53,2.33,1,False
+C-A65BE,0.47,0.75,0.92,0.76,3.67,1,False
+C-1B7F4,0.6,1.0,0.73,0.8,4.67,1,False
+C-A762B,0.6,0.9,0.81,0.62,1.33,1,True
+C-CF2B8,0.6,0.7,0.75,0.56,1.67,1,True

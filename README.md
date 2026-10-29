@@ -4,8 +4,11 @@
 
 FoodJudgeBench is a benchmark and a reproducible pipeline built on the [HUMMUS](https://gitlab.com/felix134/connected-recipe-data-set) recipe dataset (Food.com recipes and reviews with healthiness scores). It builds 60 user profiles (30 inferred from real review histories, 30 synthetic), generates explanations with four techniques, collects human ratings with a ten-question rubric, runs three open-weight LLM judges, and measures how closely the judges agree with humans.
 
-University of Oulu, NLP course project. Team: Arshman Tariq (team leader), Muhammad Faizan Tnaveer, Faisal Khan.
-Project ID / group: 22. Report: `report/report.tex` (IEEE template).
+University of Oulu, NLP course project. Project / group ID: 22.
+
+> Team: Arshman Tariq (team leader), Muhammad Faizan Tanveer, Faisal Khan.
+
+> Report: `docs/FoodJudgeBench - Project Report.pdf` (IEEE template).
 
 ## Status at a glance
 
@@ -34,10 +37,10 @@ FoodJudgeBench
 ├── README.md                    this file
 ├── requirements.txt             Python libraries with exact versions
 ├── foodjudgebench_pipeline.png  pipeline diagram used in the report
-├── report/report.tex            IEEE-format report (upload with the figures to Overleaf)
 ├── data/                        HUMMUS files (NOT in the repository, see "Get the data")
 ├── docs/
 │   └── annotator_guide.md/.docx instructions given to the human annotators
+│   └── FoodJudgeBench - Project Report.pdf (IEEE-format report)
 ├── src/                         all code (Jupyter notebooks + config)
 │   ├── config.py                paths and helpers shared by all notebooks
 │   ├── .env                     API keys, only if a hosted LLM is used (NOT in the repository)
@@ -68,19 +71,19 @@ There is no notebook 7: the rubric is defined in Notebook 6 and saved as `case_b
 
 | Report item | Produced by | File |
 |---|---|---|
-| Dataset audit table and EDA figures | Notebook 1 | `NB1_*.png`, notebook printouts |
+| Dataset audit table and EDA figures | Notebook 1 | `reviews_clean.parquet`, notebook printouts |
 | Generated-text statistics table | Notebook 5 | `generation_report.json`, `explanations_summary.csv` |
 | Human-agreement table | Notebook 8 | printed table, `annotations_pilot_consensus.csv` |
 | RQ1 table | Notebook 10 | `results/rq1_overall.csv` |
-| Agreement heatmap figure | Notebook 10 | `results/fig_rq1_heatmap.png` (`NB10_1_Kappa_Agreement_Heatmap.png`), data in `results/rq1_by_question.csv` |
+| Agreement heatmap figure | Notebook 10 | `results/fig_rq1_heatmap.png`, data in `results/rq1_by_question.csv` |
 | Yes-rate table | Notebook 9 | printed summary, judgment CSVs |
 | RQ2 table | Notebook 10 | `results/rq2_by_source.csv` |
 | RQ3 table | Notebook 10 | `results/rq3_technique_means.csv` |
-| RQ4 detection figure | Notebook 10 | `results/fig_rq4_detection.png` (`NB10_2_Detection_of_Injected_errors.png`), `results/rq4_detection.csv` |
+| RQ4 detection figure | Notebook 10 | `results/fig_rq4_detection.png`, `results/rq4_detection.csv` |
 
 ## Setup
 
-Python 3.11 or newer (_[state the exact version you used]_). Create an environment and install the pinned libraries:
+Python 3.11 or newer (_Python 3.13.14 was used_). Create an environment and install the pinned libraries:
 
 ```bash
 python -m venv .venv
@@ -98,21 +101,31 @@ The HUMMUS files are not redistributed here. Download them from the [HUMMUS repo
 
 All language models run locally through [Ollama](https://ollama.com). Install it, then pull the models:
 
+> Bash command
+
 ```bash
 ollama pull llama3.1:8b      # explanation generator (Notebook 5)
 ollama pull qwen2.5:14b      # technique-4 auditor (Notebook 5) and judge (Notebook 9)
 ollama pull gemma2:9b        # judge
 ollama pull phi4             # judge
 ```
+> To run inside Notebook Cell
+```
+import ollama
+ollama.pull("llama3.1:8b")
+ollama.pull("qwen2.5:14b")
+ollama.pull("gemma2:9b")
+ollama.pull("phi4:latest")
+```
 
-A GPU with about 12 to 16 GB of memory is comfortable for the 14B model. A hosted OpenAI-compatible API can replace Ollama: set the provider in the configuration cell and put the key in `src/.env` (never commit this file).
+A GPU with about 8 GB of memory is comfortable for the 14B model (we used NVIDIA GeForce RTX 2070, 8 GB). A hosted OpenAI-compatible API can replace Ollama: set the provider in the configuration cell and put the key in `src/.env` (this file was never committed).
 
 ## How to run
 
 Open each notebook from inside the project folder (they find the root through `src/config.py`) and run all cells in order.
 
 1. **Notebooks 1 to 4** (data, catalog, profiles, pool). Minutes each, no LLM needed.
-2. **Notebook 5** (explanations). Needs Ollama with `llama3.1:8b` and `qwen2.5:14b`; about 1.5 to 2 hours for all 480 cases on a laptop GPU. It is resumable: rerun to continue. Put your hand-checked diet labels in `processed/constraint_overrides.csv` before running (columns `recipe_id, constraint, true_status`; allowed values `ok`, `violates`, `ambiguous`).
+2. **Notebook 5** (explanations). Needs Ollama with `llama3.1:8b` and `qwen2.5:14b`; about 1.5 to 2+ hours for all 480 cases on a laptop GPU. It is resumable: rerun to continue. Put your hand-checked diet labels in `processed/constraint_overrides.csv` before running (columns `recipe_id, constraint, true_status`; allowed values `ok`, `violates`, `ambiguous`).
 3. **Notebook 6** (case bank). Writes the annotator forms. Settings at the top: `SEED`, `ANNOTATORS`, `N_PILOT`, `N_PAIRS`. Do not change the seed after annotators have started, because the item identifiers depend on it.
 4. **Annotation (offline).** Send each annotator their `case_bank/forms/<mode>_A<n>.html` together with `docs/annotator_guide`. Annotators open the file in a browser (progress autosaves) and send back the exported CSV. Save the files as `processed/annotations/incoming/ratings_pilot_A1.csv`, and so on (`ratings_main_A1.csv` for the main round).
 5. **Notebook 8** (collect). Set `MODE = "pilot"` or `"main"`. It validates the files and prints agreement per question (Krippendorff alpha, Cohen kappa, exact agreement, within-one-point), the use of "not applicable", disputed items and diagnostic catch rates.
